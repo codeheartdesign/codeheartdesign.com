@@ -6,12 +6,14 @@
   "author": "Jess Telford <jess+github@jes.st>",
   "license": "MIT",
   "scripts": {
+    "start": "serve",
     "build:sass": "node-sass assets/sass/main.scss public/assets/css/main.css",
     "build:css-min": "csso public/assets/css/noscript.css public/assets/css/noscript.min.css --map file && csso public/assets/css/main.css public/assets/css/main.min.css --map file",
     "build": "yarn build:sass && yarn build:css-min"
   },
   "devDependencies": {
     "csso-cli": "^1.1.0",
-    "node-sass": "^4.9.2"
+    "node-sass": "^4.9.2",
+    "serve": "^9.4.0"
   }
 }
