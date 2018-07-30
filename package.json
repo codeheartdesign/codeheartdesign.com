@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "start": "serve",
-    "build:sass": "node-sass assets/sass/main.scss public/assets/css/main.css",
+    "build:sass": "node-sass assets/sass --output public/assets/css",
     "build:css-min": "csso public/assets/css/noscript.css public/assets/css/noscript.min.css --map file && csso public/assets/css/main.css public/assets/css/main.min.css --map file",
     "build": "yarn build:sass && yarn build:css-min"
   },
