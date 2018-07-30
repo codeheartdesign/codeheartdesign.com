@@ -1,7 +1,16 @@
 {
-  "public": "public",
-  "directoryListing": false,
-  "redirects": [
-    { "source": "/cfp", "destination": "http://bit.ly/codeheartdesign-cfp" }
+  "name": "codeheartdesign",
+  "alias": "codeheartdesign.com",
+  "type": "static",
+  "public": false,
+  "static": {
+    "public": "public",
+    "directoryListing": false,
+    "redirects": [
+      { "source": "/cfp", "destination": "http://bit.ly/codeheartdesign-cfp" }
+    ]
+  },
+  "files": [
+    "public"
   ]
 }
