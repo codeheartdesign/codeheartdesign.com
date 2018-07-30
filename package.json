@@ -1,7 +1,8 @@
 {
   "name": "codeheartdesign",
+  "private": true,
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "public/index.html",
   "author": "Jess Telford <jess+github@jes.st>",
   "license": "MIT",
   "scripts": {
