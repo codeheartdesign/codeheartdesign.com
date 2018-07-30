@@ -28,18 +28,18 @@
 
 	@mixin color($p) {
 		@include color-typography($p);
-		@include color-box($p);
+		//@include color-box($p);
 		@include color-button($p);
-		@include color-form($p);
+		//@include color-form($p);
 		@include color-icon($p);
 		@include color-list($p);
-		@include color-section($p);
-		@include color-table($p);
-		@include color-banner($p);
-		@include color-spotlight($p);
-		@include color-gallery($p);
-		@include color-items($p);
-		@include color-index($p);
+		//@include color-section($p);
+		//@include color-table($p);
+		//@include color-banner($p);
+		//@include color-spotlight($p);
+		//@include color-gallery($p);
+		//@include color-items($p);
+		//@include color-index($p);
 	}
 
 // Phone.
@@ -162,23 +162,23 @@
 
 // Component.
 
-	@import 'components/row';
-	@import 'components/box';
+	//@import 'components/row';
+	//@import 'components/box';
 	@import 'components/button';
-	@import 'components/form';
+	//@import 'components/form';
 	@import 'components/icon';
 	@import 'components/image';
 	@import 'components/list';
 	@import 'components/actions';
 	@import 'components/icons';
-	@import 'components/section';
-	@import 'components/table';
+	//@import 'components/section';
+	//@import 'components/table';
 	@import 'components/banner';
-	@import 'components/spotlight';
-	@import 'components/gallery';
+	//@import 'components/spotlight';
+	//@import 'components/gallery';
 	@import 'components/wrapper';
-	@import 'components/items';
-	@import 'components/index';
+	//@import 'components/items';
+	//@import 'components/index';
 
 // Layout.
 
