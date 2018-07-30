@@ -1,0 +1,16 @@
+{
+  "name": "codeheartdesign",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Jess Telford <jess+github@jes.st>",
+  "license": "MIT",
+  "scripts": {
+    "build:sass": "node-sass assets/sass/main.scss public/assets/css/main.css",
+    "build:css-min": "csso public/assets/css/noscript.css public/assets/css/noscript.min.css --map file && csso public/assets/css/main.css public/assets/css/main.min.css --map file",
+    "build": "yarn build:sass && yarn build:css-min"
+  },
+  "devDependencies": {
+    "csso-cli": "^1.1.0",
+    "node-sass": "^4.9.2"
+  }
+}
