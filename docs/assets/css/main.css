@@ -339,6 +339,9 @@ li {
     display: inline-block;
     margin-right: 0.5rem; }
 
+.lead {
+  font-size: 1.4rem; }
+
 .button {
   -moz-appearance: none;
   -webkit-appearance: none;
