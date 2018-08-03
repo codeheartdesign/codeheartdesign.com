@@ -13,4 +13,4 @@ _From the people who brought you [React Sydney](https://www.meetup.com/React-Syd
 
 ## Speakers
 
-**Submit a talk at [codeheartdesign.com/cfp](http://bit.ly/codeheartdesign-cfp)**
+**Submit a talk at http://bit.ly/codeheartdesign-cfp**
