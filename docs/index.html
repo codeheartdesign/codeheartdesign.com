@@ -3,52 +3,116 @@
 	<head>
 		<title>Code❤️Design Conf | Sydney</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
 		<link rel="stylesheet" href="assets/css/main.min.css">
 	</head>
 	<body>
 
-	<main>
-		<h1>Code❤️Design Conf </h1>
-		<p class="lead">
-			A mini conf at the intersection of Frontend &amp; Design.
-		</p>
+	<div class="icons">
+		<svg class="icon" role="img" title="Code">
+			<use xlink:href="assets/svg/icons.svg#code"/>
+		</svg>
 
-		<ul>
-			<li>
-				<span>📆</span> Friday, late October, 2018
-			</li>
-			<li>
-				<span>🗺</span> Sydney, Australia
-			</li>
-			<li>
-				<span>⏰</span> Half a day event
-			</li>
-			<li>
-				<span>💺</span> Open to 300 seat strong audience
-			</li>
-			<li>
-				<span>🎉</span> Run by the popular <a href="https://www.meetup.com/React-Sydney/" title="React Sydney Group Page">React Sydney</a> and the <a href="http://designsystemmeetup.com/" title="Design System Meetup Sydney Group Page">Design System Meetup Sydney</a>
-			</li>
-		</ul>
+		<svg class="icon" role="img" title="Heart">
+			<use xlink:href="assets/svg/icons.svg#heart"/>
+		</svg>
 
-		<a class="button" href="http://bit.ly/codeheartdesign-cfp">
-			🎤 Submit a talk
-		</a>
+		<svg class="icon" role="img" title="Design">
+			<use xlink:href="assets/svg/icons.svg#design"/>
+		</svg>
+	</div>
 
-		<p><a href="https://twitter.com/CodeHeartDesign">Follow us on Twitter</a></p>
-	</main>
+	<div class="wrapper">
+		<header itemscope itemtype="http://schema.org/Event">
+			<svg class="logo" role="img" title="Code heart design conference logo">
+				<use xlink:href="assets/svg/icons.svg#logo"/>
+			</svg>
 
-	<footer>
-		From the people who brought you <a href="https://www.meetup.com/React-Sydney/" title="React Sydney Group Page">React Sydney</a>
-		and <a href="http://designsystemmeetup.com/" title="Design System Meetup Sydney Group Page">Design System Meetup Sydney</a>.
-	</footer>
+			<h1>
+				A conference bringing together designers and developers
+			</h1>
 
-		<script>
-			window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-			ga('create', 'UA-123039064-1', 'auto'); ga('send', 'pageview')
-		</script>
-		<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+			<h2>
+				Brought to you by <a href="https://www.meetup.com/React-Sydney/" title="React Sydney Group Page">React Sydney</a> &amp;
+				<a href="http://designsystemmeetup.com/" title="Design System Meetup Sydney Group Page">Design System Meetup Sydney</a>.
+			</h2>
+
+			<p>
+				<span itemprop="location" itemscope itemtype="http://schema.org/Place"><span itemprop="name">Sydney, Australia</span></span> &mdash;
+				<span itemprop="startDate" content="2018-10-26T12:00">Late October 2018</span>.
+			</p>
+		</header>
+
+		<main>
+			<section>
+				<dl>
+					<dt>Duration</dt>
+					<dd>
+						<strong>Half day</strong>
+						<span>4 - 8PM</span>
+					</dd>
+					<dt>Location</dt>
+					<dd>
+						<strong>Sydney CBD</strong>
+						<span>Location to be announced shortly</span>
+					</dd>
+					<dt>Date</dt>
+					<dd>
+						<strong>Late October 2018</strong>
+						<span>Date to be announced shortly</span>
+					</dd>
+					<dt>Tickets</dt>
+					<dd>
+						<strong>$10</strong>
+						<span>All profits to be donated to charity</span>
+					</dd>
+					<dt>Capacity</dt>
+					<dd>
+						<strong>300</strong>
+						<span>Mix of designers and developers</span>
+					</dd>
+				</dl>
+			</section>
+
+			<section>
+				<h3>Event.</h3>
+				<p>
+					A mini conference of 8 talks and a Q&amp;A from design and front-end practitioners sharing real-world examples of cross discipline collaboration
+					surfacing tools, challenges &amp; wins! Wrapping-up with networking drinks and thinks.
+				</p>
+				<p>Full schedule will be announced soon.</p>
+			</section>
+
+			<section>
+				<h3>Speakers.</h3>
+				<p>
+					Got a great example to share?<br>
+					We&rsquo;re looking for speakers and would love to hear from you!
+				</p>
+
+				<a class="button" href="http://bit.ly/codeheartdesign-cfp">Submit a talk</a>
+			</section>
+
+			<section>
+				<h3>Sponsors.</h3>
+				<p>
+					Want to show your support?
+					Get your brand in front of this diverse group.
+				</p>
+
+				<a class="button button--secondary" href="mailto:hi@dominik-wilkowski.com">Enquire now</a>
+			</section>
+		</main>
+	</div>
+
+	<script>
+		window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+		ga('create', 'UA-123039064-1', 'auto'); ga('send', 'pageview')
+	</script>
+	<script src="https://www.google-analytics.com/analytics.js" async defer></script>
+	<script src="assets/js/svg4everybody.min.js"></script>
+	<script>svg4everybody();</script>
 
 	</body>
 </html>
