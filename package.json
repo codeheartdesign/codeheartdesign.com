@@ -7,10 +7,14 @@
 	"scripts": {
 		"build:sass": "node-sass assets/sass --output docs/assets/css",
 		"build:css-min": "csso docs/assets/css/main.css docs/assets/css/main.min.css",
-		"build": "yarn build:sass && yarn build:css-min"
+		"build:css-prefix": "postcss docs/assets/css/main.min.css --use autoprefixer -r",
+		"build": "yarn build:sass && yarn build:css-min && yarn build:css-prefix"
 	},
 	"devDependencies": {
+		"autoprefixer": "^9.1.0",
 		"csso-cli": "^1.1.0",
-		"node-sass": "^4.9.2"
-	}
+		"node-sass": "^4.9.2",
+		"postcss-cli": "^6.0.0"
+	},
+	"dependencies": {}
 }
