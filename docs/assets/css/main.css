@@ -399,13 +399,13 @@ dt, dd {
   margin: 0; }
 
 dt {
-  width: 8em;
+  width: 6em;
   display: flex;
   color: #B5B4B5;
   font-weight: 600; }
 
 dd {
-  width: calc(100% - 10rem); }
+  width: calc(100% - 8rem); }
   dd strong {
     display: block; }
 

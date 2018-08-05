@@ -135,14 +135,14 @@ dt,dd {
 }
 
 dt {
-	width: 8em;
+	width: 6em;
 	display: flex;
 	color: $colorE;
 	font-weight: 600;
 }
 
 dd {
-	width: calc(100% - 10rem);
+	width: calc(100% - 8rem);
 
 	strong {
 		display: block;
