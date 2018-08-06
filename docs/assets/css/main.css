@@ -307,11 +307,15 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: #000; }
 
+::selection {
+  background-color: rgba(252, 99, 179, 0.99); }
+
 body {
   font-size: 1.2rem; }
 
 a {
-  color: #B5B4B5; }
+  color: #B5B4B5;
+  text-decoration-skip-ink: auto; }
   a:hover {
     color: #FC63B3; }
 

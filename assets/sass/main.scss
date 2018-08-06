@@ -17,12 +17,17 @@ body {
 	background: #000;
 }
 
+::selection {
+	background-color: rgba( $colorA, 0.99 );
+}
+
 body {
 	font-size: 1.2rem;
 }
 
 a {
 	color: $colorE;
+	text-decoration-skip-ink: auto;
 
 	&:hover {
 		color: $colorA;
