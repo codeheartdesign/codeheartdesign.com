@@ -415,7 +415,7 @@ dd {
   -ms-appearance: none;
   appearance: none;
   transition: background-color .2s ease-in-out,box-shadow .2s ease-in-out,color .2s ease-in-out;
-  border: 2px solid #007AFF;
+  border: 2px solid #FC63B3;
   cursor: pointer;
   display: inline-block;
   font-weight: 400;
@@ -433,10 +433,14 @@ dd {
   text-overflow: ellipsis;
   overflow: hidden;
   color: #000;
-  background-color: #007AFF; }
+  background-color: #FC63B3; }
   .button:hover {
     background-color: #000; }
 
 .button--secondary {
+  border-color: #007AFF;
+  background-color: #007AFF; }
+
+.button--tertiary {
   border-color: #FCB810;
   background-color: #FCB810; }

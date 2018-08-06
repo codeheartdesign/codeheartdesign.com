@@ -155,7 +155,7 @@ dd {
 	-ms-appearance: none;
 	appearance: none;
 	transition: background-color .2s ease-in-out,box-shadow .2s ease-in-out,color .2s ease-in-out;
-	border: 2px solid $colorB;
+	border: 2px solid $colorA;
 	cursor: pointer;
 	display: inline-block;
 	font-weight: 400;
@@ -173,7 +173,7 @@ dd {
 	text-overflow: ellipsis;
 	overflow: hidden;
 	color: #000;
-	background-color: $colorB;
+	background-color: $colorA;
 
 	&:hover {
 		background-color: #000;
@@ -181,6 +181,11 @@ dd {
 }
 
 .button--secondary {
+	border-color: $colorB;
+	background-color: $colorB;
+}
+
+.button--tertiary {
 	border-color: $colorC;
 	background-color: $colorC;
 }
