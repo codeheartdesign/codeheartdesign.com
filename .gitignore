@@ -138,3 +138,6 @@ tags
 
 
 # End of https://www.gitignore.io/api/vim,osx,node,linux
+
+*.sublime-project
+*.sublime-workspace
