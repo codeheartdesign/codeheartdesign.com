@@ -3,6 +3,7 @@
 	--bg: #1A2441;
 	--bg-1: #1D2744;
 	--action: #FC63B3;
+	--action-fg: #1A2441;
 	--fg: #fff;
 }
 
@@ -23,12 +24,12 @@ body {
 }
 
 *:focus {
-	outline: 3px dashed var(--fg);
+	outline: 3px dotted var(--fg);
 }
 
 ::selection {
 	background-color: rgba( 255, 82, 182, 0.99 );
-	color: #000;
+	color: var(--action-fg);
 }
 
 a,
@@ -188,11 +189,26 @@ header h1 {
 	text-align: center;
 }
 .header .headline {
-	font-size: 2rem;
+	font-size: 1.2rem;
 }
 .header .body {
 	font-family: 'Lora', serif;
 	font-style: italic;
+}
+.header .body a {
+	color: var(--fg);
+	text-decoration: underline;
+}
+.header .body a:hover {
+	color: var(--action);
+}
+.header .btn {
+	margin-top: 2rem;
+}
+@media (min-width: 500px) {
+	.header .headline {
+		font-size: 2rem;
+	}
 }
 
 /* ====================== CONTENT ====================== */
@@ -214,4 +230,23 @@ nav {
 }
 .content {
 	grid-column: col-start / 10;
+}
+
+/* ====================== BUTTON ====================== */
+.btn {
+	display: inline-block;
+	appearance: none;
+	border: none;
+	background: var(--action);
+	padding: 1rem 2rem;
+	color: var(--action-fg);
+	border-radius: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.btn:hover {
+	color: var(--action-fg);
+}
+.btn--lg {
+	font-size: 1.2rem;
 }

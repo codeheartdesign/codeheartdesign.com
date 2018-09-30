@@ -5,10 +5,11 @@ import React, { Fragment } from 'react';
 /**
  * The Header component
  */
-const Header = ({ headline, _body }) => (
+const Header = ({ headline, tickets, _body }) => (
 	<div className="row-c header">
 		<h2 className="headline">{ headline }</h2>
 		<div className="body">{ _body }</div>
+		<a className="js-scroll btn btn--lg" href="#tickets">{ tickets }</a>
 	</div>
 );
 

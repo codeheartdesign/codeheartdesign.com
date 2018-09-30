@@ -9,3 +9,6 @@ npm-debug.log
 lerna-debug.log
 package-lock.json
 yarn-error.log
+
+docs/assets/favicons
+code/assets/css/site.min.css
