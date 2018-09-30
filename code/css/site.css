@@ -5,6 +5,8 @@
 	--action: #FC63B3;
 	--action-fg: #1A2441;
 	--fg: #fff;
+	--border: #3A506B;
+	--border-1: rgba( 58, 80, 107, 0.2 );
 }
 
 /* ====================== BASICS ====================== */
@@ -23,8 +25,19 @@ body {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+@keyframes focus {
+	from {
+		outline-color: var(--fg);
+	}
+	to {
+		outline-color: transparent;
+	}
+}
 *:focus {
 	outline: 3px dotted var(--fg);
+}
+section:focus {
+	animation: focus 2s forwards linear;
 }
 
 ::selection {
@@ -87,11 +100,15 @@ a:hover {
 	background: var(--bg-1);
 }
 .row,
-.row-c {
+.row-c,
+.row-m {
 	grid-column: col-start / -1;
 }
 @media (min-width: 800px) {
 	.row-c {
+		grid-column: col-start 2 / -2;
+	}
+	.row-m {
 		grid-column: col-start 2 / -2;
 	}
 }
@@ -213,40 +230,84 @@ header h1 {
 
 /* ====================== CONTENT ====================== */
 nav {
-	grid-column: col-start / -1;
+	display: none;
 }
 @media (min-width: 800px) {
 	nav {
+		display: block;
 		grid-column: col-start 10 / -1;
 	}
 	nav,
 	.content {
 		grid-row: 1;
 	}
-	nav ul {
+	nav .navlist {
 		position: sticky;
 		top: 0;
+	}
+}
+@media (min-width: 980px) {
+	nav {
+		grid-column: col-start 10 / -2;
 	}
 }
 .content {
 	grid-column: col-start / 10;
 }
+.wrapper.content-wrapper {
+	margin-top: 1rem;
+}
+
+/* ====================== NAV ====================== */
+.navlist {
+	list-style: none;
+	border-top: 0.5rem solid var(--border);
+	padding: 0;
+	margin: 0;
+}
+.navlist li {
+	font-weight: bold;
+}
+.navlist li + li {
+	border-top: 0.5rem solid var(--border-1);
+}
+.navlist li a {
+	display: block;
+	padding: 1rem 0;
+	color: var(--fg);
+	text-decoration: underline;
+}
+.navlist li a:hover {
+	color: var(--action);
+}
 
 /* ====================== BUTTON ====================== */
-.btn {
+.btn,
+a.btn {
 	display: inline-block;
 	appearance: none;
 	border: none;
 	background: var(--action);
 	padding: 1rem 2rem;
-	color: var(--action-fg);
 	border-radius: 2px;
 	text-transform: uppercase;
 	font-weight: bold;
+	color: var(--action-fg);
 }
 .btn:hover {
 	color: var(--action-fg);
 }
 .btn--lg {
 	font-size: 1.2rem;
+}
+
+/* ====================== GoldSponsors ====================== */
+.goldSponsors {
+	border-top: 0.5rem solid var(--border);
+	margin-top: 3rem;
+}
+.goldSponsors-content {
+	margin-top: 2rem;
+	background-color: var(--border-1);
+	padding: 2rem;
 }

@@ -8,9 +8,9 @@ import React from 'react';
  * @disable-docs
  */
 const Partial = ({ _body, _self }) => (
-	<div className="row" id={ _self.split('/').slice(-1).join('').replace('.md', '') }>
+	<section className="row" id={ _self.split('/').slice(-1).join('').replace('.md', '') } tabIndex="0">
 		{ _body }
-	</div>
+	</section>
 );
 
 Partial.propTypes = {

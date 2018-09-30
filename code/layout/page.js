@@ -53,7 +53,7 @@ const Page = ({
 							body &&
 								<div className="row wrapper content-wrapper">
 									<nav>
-										<ul>
+										<ul className="navlist">
 											{
 												_pages.index.body.map( ( page, i ) =>
 													<li key={ i }>
