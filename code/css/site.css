@@ -35,6 +35,7 @@ body {
 }
 *:focus {
 	outline: 3px dotted var(--fg);
+	outline-offset: 3px;
 }
 section:focus {
 	animation: focus 2s forwards linear;
