@@ -15,7 +15,7 @@ const Content = ({ _body }) => (
 
 Content.propTypes = {
 	/**
-	 * _body: (test)(12)
+	 * _body: (text)(12)
 	 */
 	_body: PropTypes.node.isRequired,
 };

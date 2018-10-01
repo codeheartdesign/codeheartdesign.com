@@ -15,7 +15,7 @@ const Partial = ({ _body, _self }) => (
 
 Partial.propTypes = {
 	/**
-	 * _body: (test)(12)
+	 * _body: (text)(12)
 	 */
 	_body: PropTypes.node.isRequired,
 };

@@ -47,7 +47,7 @@ Tickets.propTypes = {
 	 *       with markdown support
 	 *     btn: Buy now – $10
 	 *     link: https://google.com
-	 *     disabled: true
+	 *     disabled: Available soon
 	 *   - headline: Workshop + Conference ticket
 	 *     subline: |
 	 *       Description about the ticket

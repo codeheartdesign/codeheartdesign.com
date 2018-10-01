@@ -5,7 +5,7 @@ import React from 'react';
 /**
  * The header component
  */
-const Header = ({ _relativeURL, _body, _ID }) => (
+const Header = ({ _relativeURL, _ID }) => (
 	<header className="row" role="banner">
 		<a className="logo" href={ _relativeURL( '/', _ID ) }>
 			<h1>
@@ -94,12 +94,7 @@ const Header = ({ _relativeURL, _body, _ID }) => (
 	</header>
 );
 
-Header.propTypes = {
-	/**
-	 * _body: (test)(12)
-	 */
-	_body: PropTypes.node.isRequired,
-};
+Header.propTypes = {};
 
 Header.defaultProps = {};
 

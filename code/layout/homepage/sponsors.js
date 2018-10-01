@@ -71,11 +71,89 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 	</Fragment>
 );
 
+const sponsorType = PropTypes.arrayOf(
+	PropTypes.shape({
+		name: PropTypes.string.isRequired,
+		svg: PropTypes.string.isRequired,
+		blurb: PropTypes.string,
+	})
+);
+
 Sponsors.propTypes = {
 	/**
 	 * headline: Sponsors
 	 */
 	headline: PropTypes.string.isRequired,
+
+	/**
+	 * gold:
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 */
+	gold: sponsorType,
+
+	/**
+	 * silver:
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 */
+	silver: sponsorType,
+
+	/**
+	 * bronze:
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 */
+	bronze: sponsorType,
+
+	/**
+	 * community:
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 */
+	community: sponsorType,
+
+	/**
+	 * organizers:
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 *   - name: Atlassian
+	 *     svg: atlassian
+	 *     blurb: Tools for teams, from startup to enterprise
+	 */
+	organizers: sponsorType,
 };
 
 Sponsors.defaultProps = {};
