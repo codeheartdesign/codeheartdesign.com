@@ -28,8 +28,8 @@ const Page = ({
 		<html>
 			<Head _ID={ _ID } _relativeURL={ _relativeURL } pagetitle={ pagetitle }/>
 
-			<body className="homepage">
-				<div className="grid">
+			<body className={ _ID }>
+				<div className="grid gridgap">
 					<div className="col"></div>
 					<div className="col"></div>
 					<div className="col"></div>
@@ -46,12 +46,12 @@ const Page = ({
 				<div>
 					{ header }
 
-					<main className="wrapper">
+					<main className="wrapper gridgap">
 						{ main }
 
 						{
 							body &&
-								<div className="row wrapper content-wrapper">
+								<div className="row wrapper gridgap content-wrapper">
 									<nav>
 										<ul className="navlist">
 											{
@@ -63,7 +63,7 @@ const Page = ({
 											}
 										</ul>
 									</nav>
-									<section className="content">
+									<section className="content gridgap">
 										{ body }
 									</section>
 								</div>

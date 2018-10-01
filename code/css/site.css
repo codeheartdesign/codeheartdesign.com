@@ -7,6 +7,7 @@
 	--fg: #fff;
 	--border: #3A506B;
 	--border-1: rgba( 58, 80, 107, 0.2 );
+	--muted: #7E90B5;
 }
 
 /* ====================== BASICS ====================== */
@@ -48,7 +49,8 @@ section:focus {
 
 a,
 a:hover,
-a:visited {
+a:visited,
+a:focus {
 	color: var(--action);
 	text-decoration: none;
 }
@@ -71,19 +73,21 @@ a:hover {
 .grid,
 .wrapper {
 	display: grid;
-	grid-template-columns: repeat(12, [col-start] 1fr);
-	grid-gap: 8px;
+	grid-template-columns: repeat( 12, [col-start] 1fr );
 	max-width: 75rem;
-	margin: 0 auto;
-	padding: 0 1rem;
-}
-.wrapper .wrapper {
 	padding: 0;
 	margin: 0;
 }
+.gridgap {
+	grid-gap: 8px;
+}
+main.wrapper,
+.grid {
+	margin: 0 auto;
+	padding: 0 1rem;
+}
 @media (min-width: 800px) {
-	.grid,
-	.wrapper {
+	.gridgap {
 		grid-gap: 16px;
 	}
 }
@@ -121,33 +125,15 @@ a:hover {
 
 /* ====================== LOGO ====================== */
 @keyframes hue {
-	0% {
-		fill: var(--action);
-	}
-	12.5% {
-		fill: #9400D3;
-	}
-	25% {
-		fill: #4B0082;
-	}
-	37.5% {
-		fill: #0000FF;
-	}
-	50% {
-		fill: #00FF00;
-	}
-	62.5% {
-		fill: #FFFF00;
-	}
-	75% {
-		fill: #FF7F00;
-	}
-	87.5% {
-		fill: #FF0000;
-	}
-	100% {
-		fill: var(--action);
-	}
+	0%    { fill: var(--action); }
+	12.5% { fill: #9400D3; }
+	25%   { fill: #4B0082; }
+	37.5% { fill: #0000FF; }
+	50%   { fill: #00FF00; }
+	62.5% { fill: #FFFF00; }
+	75%   { fill: #FF7F00; }
+	87.5% { fill: #FF0000; }
+	100%  { fill: var(--action); }
 }
 .heart:hover .l {
 	animation: hue 6s infinite linear;
@@ -217,7 +203,8 @@ header h1 {
 	color: var(--fg);
 	text-decoration: underline;
 }
-.header .body a:hover {
+.header .body a:hover,
+.header .body a:focus {
 	color: var(--action);
 }
 .header .btn {
@@ -253,6 +240,8 @@ nav {
 	}
 }
 .content {
+	display: grid;
+	grid-template-columns: repeat( 9, [col-start] 1fr );
 	grid-column: col-start / 10;
 }
 .wrapper.content-wrapper {
@@ -278,7 +267,8 @@ nav {
 	color: var(--fg);
 	text-decoration: underline;
 }
-.navlist li a:hover {
+.navlist li a:hover,
+.navlist li a:focus {
 	color: var(--action);
 }
 
@@ -302,13 +292,122 @@ a.btn {
 	font-size: 1.2rem;
 }
 
-/* ====================== GoldSponsors ====================== */
+/* ====================== GOLDSPONSORS ====================== */
 .goldSponsors {
 	border-top: 0.5rem solid var(--border);
 	margin-top: 3rem;
 }
 .goldSponsors-content {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: center;
 	margin-top: 2rem;
 	background-color: var(--border-1);
-	padding: 2rem;
+	padding: 1rem 2rem 2rem 2rem;
+}
+.goldSponsors-img {
+	max-width: 13rem;
+	max-height: 5rem;
+}
+.goldSponsors-content a {
+	margin: 1rem 1rem 0 1rem;
+}
+
+/* ====================== SCHEDULE ====================== */
+.schedule-headline,
+.schedule-time,
+.schedule-body {
+	grid-column: col-start / -1;
+}
+.schedule-headline {
+	border-top: 0.5rem solid var(--border);
+	padding: 1rem 0;
+	margin: 0;
+	font-weight: bold;
+	font-size: 3.8rem;
+}
+.schedule-time {
+	font-weight: bold;
+	border-top: 0.5rem solid var(--border-1);
+	padding-top: 1.5rem;
+}
+.schedule-time span {
+	font-weight: normal;
+	font-size: 0.875rem;
+	color: var(--muted);
+}
+.schedule-body {
+	display: grid;
+	grid-template-columns: repeat( 9, [col-start] 1fr );
+	margin-bottom: 0.5rem;
+}
+.schedule-title {
+	grid-column: col-start / -1;
+	color: var(--action);
+	font-weight: bold;
+}
+.schedule-img,
+.schedule-details {
+	grid-column: col-start / -1;
+}
+.schedule-img {
+	width: 170px;
+	border-radius: 6px;
+}
+.schedule-name,
+.schedule-role {
+	margin: 0;
+}
+.schedule-name {
+	text-transform: uppercase;
+	letter-spacing: 2.6px;
+	font-weight: bold;
+}
+.schedule-role {
+	margin-top: 0.5rem;
+	color: var(--action);
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-weight: bold;
+}
+.schedule-description {
+	margin-top: 1rem;
+	line-height: 1.4;
+}
+@media (min-width: 1050px) {
+	.schedule-body {
+		grid-template-columns: repeat( 8, [col-start] 1fr );
+	}
+	.schedule-time {
+		grid-column: col-start / 2;
+		border: none;
+	}
+	.schedule-body {
+		grid-column: col-start 2 / -1;
+	}
+	.schedule-time {
+		padding-top: 2rem;
+		text-align: right;
+	}
+	.schedule-body {
+		border-top: 0.5rem solid var(--border-1);
+		padding-top: 1.5rem;
+	}
+	.schedule-time span {
+		display: block;
+	}
+	.schedule-img {
+		grid-column: col-start / 3;
+		max-width: 100%;
+		width: auto;
+	}
+	.schedule-details {
+		grid-column: col-start 3 / -1;
+	}
+}
+@media (min-width: 800px) {
+	.schedule-headline {
+		grid-column: col-start 2 / -1;
+	}
 }

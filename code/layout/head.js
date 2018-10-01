@@ -38,7 +38,7 @@ const Head = ({ _ID, _relativeURL, pagetitle }) => (
 		<meta name="twitter:description" content="A mini-conf bringing together designers, design system lovers and front-end developers."/>
 		<meta name="twitter:name" content="Code Heart Design Conference Sydney"/>
 		<meta name="twitter:image" content="https://codeheartdesign.com/assets/img/og-image.jpg"/>
-		<link href="https://fonts.googleapis.com/css?family=Lora:400i,700" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/css?family=Lora:400i,700i" rel="stylesheet"/>
 		<link rel="stylesheet" href={_relativeURL(`/assets/css/site.min.css`, _ID)}/>
 	</head>
 );
