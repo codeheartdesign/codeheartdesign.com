@@ -7,69 +7,69 @@ schedule:
     title: Doors open + welcome
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
+    name: Person Name
     img: personx.jpg
-    role: Director of loving code, Company xyz ltd.
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
-    img: personx.jpg
-    role: Director of loving code, Company xyz ltd.
+    name: Person Name
+    img: persony.jpg
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
+    name: Person Name
     img: personx.jpg
-    role: Director of loving code, Company xyz ltd.
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
   - from: "3:00pm"
     to: "3:30pm"
     title: Break
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
+    name: Person Name
     img: personx.jpg
-    role: Director of loving code, Company xyz ltd.
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
+    name: Person Name
     img: personx.jpg
-    role: Director of loving code, Company xyz ltd.
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
+    name: Person Name
     img: persony.jpg
-    role: Director of loving code, Company xyz ltd.
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
+    name: Person Name
     img: personx.jpg
-    role: Director of loving code, Company xyz ltd.
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
   - from: "1:00pm"
     to: "2:00pm"
-    name: Sharon Steed
+    name: Person Name
     img: persony.jpg
-    role: Director of loving code, Company xyz ltd.
+    role: Role description / Company Name ltd.
     description: |
-      Richard is the author of “Elm in Action” from Manning Publications, and the instructor for the Frontend Masters 2-Day Elm Workshop. When he’s not writing
-      about Elm, teaching Elm, speaking about Elm, or co-hosting the San Francisco Elm meetup, he likes to take a break from his job.
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
+      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
 ---

@@ -38,7 +38,7 @@ body {
 	outline: 3px dotted var(--fg);
 	outline-offset: 3px;
 }
-section:focus {
+*[tabIndex]:focus {
 	animation: focus 2s forwards linear;
 }
 
@@ -67,6 +67,12 @@ a:hover {
 	overflow: hidden;
 	clip: rect( 0, 0, 0, 0 );
 	border: 0;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 /* ====================== GRID ====================== */
@@ -106,7 +112,8 @@ main.wrapper,
 }
 .row,
 .row-c,
-.row-m {
+.row-m,
+.row-h {
 	grid-column: col-start / -1;
 }
 @media (min-width: 800px) {
@@ -116,10 +123,20 @@ main.wrapper,
 	.row-m {
 		grid-column: col-start 2 / -2;
 	}
+	.row-h,
+	.content.row-h {
+		grid-column: col-start 2 / -1;
+	}
+	.content .content.row-h {
+		grid-column: col-start / -1;
+	}
 }
-@media (min-width: 1000px) {
+@media (min-width: 1050px) {
 	.row-c {
 		grid-column: col-start 3 / -3;
+	}
+	.content .content.row-h {
+		grid-column: col-start 2 / -1;
 	}
 }
 
@@ -220,6 +237,13 @@ header h1 {
 nav {
 	display: none;
 }
+.contentHeadline {
+	border-top: 0.5rem solid var(--border);
+	padding: 1rem 0;
+	margin: 2rem 0 0 0;
+	font-weight: bold;
+	font-size: 3.8rem;
+}
 @media (min-width: 800px) {
 	nav {
 		display: block;
@@ -228,6 +252,9 @@ nav {
 	nav,
 	.content {
 		grid-row: 1;
+	}
+	.content .content {
+		grid-row: initial;
 	}
 	nav .navlist {
 		position: sticky;
@@ -242,7 +269,20 @@ nav {
 .content {
 	display: grid;
 	grid-template-columns: repeat( 9, [col-start] 1fr );
-	grid-column: col-start / 10;
+	grid-column: col-start / -1;
+}
+@media (min-width: 480px) {
+	.content {
+		grid-column: col-start 2 / -2;
+	}
+	.content .content {
+		grid-column: col-start / -1;
+	}
+}
+@media (min-width: 800px) {
+	.content {
+		grid-column: col-start / 10;
+	}
 }
 .wrapper.content-wrapper {
 	margin-top: 1rem;
@@ -253,7 +293,7 @@ nav {
 	list-style: none;
 	border-top: 0.5rem solid var(--border);
 	padding: 0;
-	margin: 0;
+	margin: 2rem 0 0 0;
 }
 .navlist li {
 	font-weight: bold;
@@ -279,23 +319,28 @@ a.btn {
 	appearance: none;
 	border: none;
 	background: var(--action);
-	padding: 1rem 2rem;
+	padding: 1rem;
 	border-radius: 2px;
 	text-transform: uppercase;
+	font-size: 0.875rem;
 	font-weight: bold;
 	color: var(--action-fg);
+	text-align: center;
 }
 .btn:hover {
 	color: var(--action-fg);
 }
-.btn--lg {
+.btn--lg,
+a.btn--lg {
 	font-size: 1.2rem;
+	padding: 1rem 2rem;
 }
 
 /* ====================== GOLDSPONSORS ====================== */
 .goldSponsors {
 	border-top: 0.5rem solid var(--border);
 	margin-top: 3rem;
+	margin-bottom: -2rem;
 }
 .goldSponsors-content {
 	display: flex;
@@ -315,17 +360,9 @@ a.btn {
 }
 
 /* ====================== SCHEDULE ====================== */
-.schedule-headline,
 .schedule-time,
 .schedule-body {
 	grid-column: col-start / -1;
-}
-.schedule-headline {
-	border-top: 0.5rem solid var(--border);
-	padding: 1rem 0;
-	margin: 0;
-	font-weight: bold;
-	font-size: 3.8rem;
 }
 .schedule-time {
 	font-weight: bold;
@@ -340,7 +377,7 @@ a.btn {
 .schedule-body {
 	display: grid;
 	grid-template-columns: repeat( 9, [col-start] 1fr );
-	margin-bottom: 0.5rem;
+	margin-bottom: 1.5rem;
 }
 .schedule-title {
 	grid-column: col-start / -1;
@@ -348,11 +385,12 @@ a.btn {
 	font-weight: bold;
 }
 .schedule-img,
-.schedule-details {
+.schedule-details,
+.schedule-item {
 	grid-column: col-start / -1;
 }
 .schedule-img {
-	width: 170px;
+	width: 186px;
 	border-radius: 6px;
 }
 .schedule-name,
@@ -406,8 +444,36 @@ a.btn {
 		grid-column: col-start 3 / -1;
 	}
 }
-@media (min-width: 800px) {
-	.schedule-headline {
-		grid-column: col-start 2 / -1;
+
+/* ====================== Tickets ====================== */
+.tickets-text,
+.tickets-links {
+	grid-column: col-start / -1;
+}
+.ticket-item {
+	border-top: 0.5rem solid var(--border-1);
+	padding-top: 1.5rem;
+}
+.tickets-headline {
+	margin: 0;
+	font-size: 1.75rem;
+	font-weight: 900;
+}
+.tickets-subline {
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+@media (min-width: 1050px) {
+	.ticket-item {
+		grid-template-columns: repeat( 8, [col-start] 1fr );
+	}
+	.tickets-text {
+		grid-column: col-start / -4;
+	}
+	.tickets-links {
+		grid-column: col-start 7 / -1;
+	}
+	.tickets-links .btn {
+		display: block;
 	}
 }

@@ -43,33 +43,32 @@ const Page = ({
 					<div className="col"></div>
 					<div className="col"></div>
 				</div>
-				<div>
-					{ header }
 
-					<main className="wrapper gridgap">
-						{ main }
+				{ header }
 
-						{
-							body &&
-								<div className="row wrapper gridgap content-wrapper">
-									<nav>
-										<ul className="navlist">
-											{
-												_pages.index.body.map( ( page, i ) =>
-													<li key={ i }>
-														<a className="js-scroll" href={`#${ page.replace('.md', '') }`}>{ CleanName( page ) }</a>
-													</li>
-												)
-											}
-										</ul>
-									</nav>
-									<section className="content gridgap">
-										{ body }
-									</section>
-								</div>
-						}
-					</main>
-				</div>
+				<main className="wrapper gridgap">
+					{ main }
+
+					{
+						body &&
+							<div className="row wrapper gridgap content-wrapper">
+								<nav>
+									<ul className="navlist">
+										{
+											_pages.index.body.map( ( page, i ) =>
+												<li key={ i }>
+													<a className="js-scroll" href={`#${ page.replace('.md', '') }`}>{ CleanName( page ) }</a>
+												</li>
+											)
+										}
+									</ul>
+								</nav>
+								<section className="content gridgap">
+									{ body }
+								</section>
+							</div>
+					}
+				</main>
 
 				{ footer }
 

@@ -5,28 +5,30 @@ import PropTypes from 'prop-types';
 /**
  * The Schedule component
  */
-const Schedule = ({ headline, schedule, _relativeURL, _ID }) => (
+const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) => (
 	<Fragment>
-		<h3 class="schedule-headline">{ headline }</h3>
-		{
-			schedule.map( ( item, i ) =>
-				<Fragment key={ i }>
-					<div className="schedule-time">
-						{ item.from }
-						<span> - { item.to }</span>
-					</div>
-					<div className="schedule-body gridgap">
-						{ item.title && <span className="schedule-title">{ item.title }</span> }
-						{ item.img && <img className="schedule-img" src={ _relativeURL(`/assets/img/${ item.img }`, _ID) } alt={ item.name } /> }
-						<div className="schedule-details">
-							{ item.name && <p className="schedule-name">{ item.name }</p> }
-							{ item.role && <p className="schedule-role">{ item.role }</p> }
-							{ item.description && <div className="schedule-description">{ item.description }</div> }
+		<h3 className="row-h contentHeadline schedule-headline" id={ _self.split('/').slice(-1).join('').replace('.md', '') } tabIndex="0">{ headline }</h3>
+		<ul className="row list">
+			{
+				schedule.map( ( item, i ) =>
+					<li className="content gridgap schedule-item" key={ i }>
+						<div className="schedule-time">
+							{ item.from }
+							<span> - { item.to }</span>
 						</div>
-					</div>
-				</Fragment>
-			)
-		}
+						<div className="schedule-body gridgap">
+							{ item.title && <span className="schedule-title">{ item.title }</span> }
+							{ item.img && <img className="schedule-img" src={ _relativeURL(`/assets/img/${ item.img }`, _ID) } alt={ item.name } /> }
+							<div className="schedule-details">
+								{ item.name && <p className="schedule-name">{ item.name }</p> }
+								{ item.role && <p className="schedule-role">{ item.role }</p> }
+								{ item.description && <div className="schedule-description">{ _parseMD( item.description ) }</div> }
+							</div>
+						</div>
+					</li>
+				)
+			}
+		</ul>
 	</Fragment>
 );
 
@@ -38,19 +40,35 @@ Schedule.propTypes = {
 
 	/**
 	 * schedule:
-	 *   - svg: atlassian
-	 *     alt: Atlassian Gold Sponsors of Code Heart Design
-	 *     url: https://www.atlassian.com/
-	 *   - img: https://via.placeholder.com/130x30
-	 *     alt: Lendi Gold Sponsors of Code Heart Design
-	 *     url: https://www.lendi.com.au/
+	 *   - from: "12:00pm"
+	 *     to: "12:30pm"
+	 *     title: Doors open + welcome
+	 *   - from: "12:30pm"
+	 *     to: "1:30pm"
+	 *     name: Speaker Name
+	 *     img: picture.jpg
+	 *     role: Role description / Company Name ltd.
+	 *     description: |
+	 *       Description about the person
+	 *       with markdown support
+	 *   - from: "12:30pm"
+	 *     to: "1:30pm"
+	 *     name: Speaker Name
+	 *     img: picture.jpg
+	 *     role: Role description / Company Name ltd.
+	 *     description: |
+	 *       Description about the person
+	 *       with markdown support
 	 */
 	schedule: PropTypes.arrayOf(
 		PropTypes.shape({
-			svg: PropTypes.string,
+			from: PropTypes.string.isRequired,
+			to: PropTypes.string.isRequired,
+			title: PropTypes.string,
+			name: PropTypes.string,
 			img: PropTypes.string,
-			alt: PropTypes.string.isRequired,
-			url: PropTypes.string.isRequired,
+			role: PropTypes.string,
+			description: PropTypes.string,
 		})
 	).isRequired,
 };
