@@ -75,6 +75,11 @@ a:hover {
 	margin: 0;
 }
 
+.muted {
+	font-size: 0.875rem;
+	color: var(--muted);
+}
+
 /* ====================== GRID ====================== */
 .grid,
 .wrapper {
@@ -335,6 +340,13 @@ a.btn--lg {
 	font-size: 1.2rem;
 	padding: 1rem 2rem;
 }
+.btn--disabled,
+a.btn--disabled,
+.btn.btn--disabled:hover {
+	background-color: var(--border);
+	color: var(--fg);
+	cursor: not-allowed;
+}
 
 /* ====================== GOLDSPONSORS ====================== */
 .goldSponsors {
@@ -369,10 +381,8 @@ a.btn--lg {
 	border-top: 0.5rem solid var(--border-1);
 	padding-top: 1.5rem;
 }
-.schedule-time span {
+.schedule-time .muted {
 	font-weight: normal;
-	font-size: 0.875rem;
-	color: var(--muted);
 }
 .schedule-body {
 	display: grid;
@@ -432,7 +442,7 @@ a.btn--lg {
 		border-top: 0.5rem solid var(--border-1);
 		padding-top: 1.5rem;
 	}
-	.schedule-time span {
+	.schedule-time .muted {
 		display: block;
 	}
 	.schedule-img {
@@ -445,7 +455,7 @@ a.btn--lg {
 	}
 }
 
-/* ====================== Tickets ====================== */
+/* ====================== TICKETS ====================== */
 .tickets-text,
 .tickets-links {
 	grid-column: col-start / -1;
@@ -463,6 +473,11 @@ a.btn--lg {
 	font-family: 'Lora', serif;
 	font-style: italic;
 }
+.tickets-links .muted {
+	display: block;
+	text-align: center;
+	margin-top: 0.5rem;
+}
 @media (min-width: 1050px) {
 	.ticket-item {
 		grid-template-columns: repeat( 8, [col-start] 1fr );
@@ -475,5 +490,35 @@ a.btn--lg {
 	}
 	.tickets-links .btn {
 		display: block;
+	}
+}
+
+/* ====================== LOCATION ====================== */
+.location-map {
+	height: 20rem;
+}
+
+/* ====================== SECTION ====================== */
+.section * {
+	grid-column: col-start / -1;
+}
+
+/* ====================== SPONSORTIER ====================== */
+.sponsortier-logo {
+	grid-column: col-start / 3;
+	max-width: 100%;
+	padding: 0 1rem 0 0;
+	box-sizing: border-box;
+}
+.sponsortier-blurb {
+	grid-column: col-start 3 / -1;
+}
+.sponsortier-item:first-child {
+	border-top: 0.5rem solid var(--border-1);
+	padding-top: 1.5rem;
+}
+@media (min-width: 1050px) {
+	.sponsortier-item {
+		grid-template-columns: repeat( 8, [col-start] 1fr );
 	}
 }

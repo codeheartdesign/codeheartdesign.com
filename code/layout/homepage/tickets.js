@@ -17,7 +17,14 @@ const Tickets = ({ headline, tickets, _parseMD, _self }) => (
 							<div className="tickets-subline">{ _parseMD( ticket.subline ) }</div>
 						</div>
 						<div className="tickets-links">
-							<a className="btn" href={ ticket.link }>{ ticket.btn }</a>
+							{
+								ticket.disabled
+									? <Fragment>
+											<span className="btn btn--disabled">{ ticket.btn }</span>
+											<span className="muted">{ ticket.disabled }</span>
+										</Fragment>
+									: <a className="btn" href={ ticket.link }>{ ticket.btn }</a>
+							}
 						</div>
 					</li>
 				)
@@ -40,6 +47,7 @@ Tickets.propTypes = {
 	 *       with markdown support
 	 *     btn: Buy now – $10
 	 *     link: https://google.com
+	 *     disabled: true
 	 *   - headline: Workshop + Conference ticket
 	 *     subline: |
 	 *       Description about the ticket
@@ -53,6 +61,7 @@ Tickets.propTypes = {
 			subline: PropTypes.string.isRequired,
 			btn: PropTypes.string.isRequired,
 			link: PropTypes.string.isRequired,
+			disabled: PropTypes.string,
 		})
 	).isRequired,
 };

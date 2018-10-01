@@ -47,6 +47,7 @@ const Page = ({
 				{ header }
 
 				<main className="wrapper gridgap">
+					{ body ? null : <div className="row"><a href={ _relativeURL( '/', _ID ) }>← Back home</a></div> }
 					{ main }
 
 					{

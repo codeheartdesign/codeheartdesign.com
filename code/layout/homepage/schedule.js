@@ -14,7 +14,7 @@ const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) =>
 					<li className="content gridgap schedule-item" key={ i }>
 						<div className="schedule-time">
 							{ item.from }
-							<span> - { item.to }</span>
+							<span className="muted"> - { item.to }</span>
 						</div>
 						<div className="schedule-body gridgap">
 							{ item.title && <span className="schedule-title">{ item.title }</span> }

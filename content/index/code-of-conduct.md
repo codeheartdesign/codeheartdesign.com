@@ -1,40 +1,10 @@
-code-of-conduct.md
+---
+layout: homepage/section
+headline: Code of Conduct
+---
 
-test
+A primary goal of Code Heart Design is to be inclusive to the largest number of members, with the most varied and diverse backgrounds possible.
+As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity,
+socioeconomic status, and religion (or lack thereof).
 
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
-test
-
+[Read the full code of conduct](/code-of-conduct)

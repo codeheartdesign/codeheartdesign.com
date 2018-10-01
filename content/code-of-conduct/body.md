@@ -33,7 +33,7 @@ The following behaviors are expected and requested of all community members:
 * Attempt collaboration before conflict.
 * Refrain from demeaning, discriminatory, or harassing behavior and speech.
 * Be mindful of your surroundings and of your fellow participants.
-  Alert [community leaders](https://codeheartdesign.com/#organisers) if you notice a dangerous situation, someone in distress, or violations of
+  Alert [community leaders](/#organisers) if you notice a dangerous situation, someone in distress, or violations of
   this Code of Conduct, even if they seem inconsequential.
 * Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.
 
@@ -61,14 +61,14 @@ Unacceptable behavior from any community member, including sponsors and those wi
 
 Anyone asked to stop unacceptable behavior is expected to comply immediately.
 
-If a community member engages in unacceptable behavior, the [community organizers](https://codeheartdesign.com/#organisers) may take any action
+If a community member engages in unacceptable behavior, the [community organizers](/#organisers) may take any action
 they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid
 event).
 
 ## 6. Reporting Guidelines
 
 If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a
-[community organizer](https://codeheartdesign.com/#organisers) as soon as possible: admin@codeheartdesign.com.
+[community organizer](/#organisers) as soon as possible: admin@codeheartdesign.com.
 
 
 
