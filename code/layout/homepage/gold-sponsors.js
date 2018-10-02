@@ -15,7 +15,7 @@ const GoldSponsors = ({ sponsors, _relativeURL, _ID }) => (
 						{
 							sponsor.svg &&
 								<svg className="goldSponsors-img" role="img" title={ sponsor.alt }>
-									<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
+									<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg?v1#${ sponsor.svg }-centered`, _ID ) }/>
 								</svg>
 						}
 					</a>

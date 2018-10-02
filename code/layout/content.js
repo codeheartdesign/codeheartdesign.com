@@ -4,8 +4,6 @@ import React from 'react';
 
 /**
  * The Content component
- *
- * @disable-docs
  */
 const Content = ({ _body }) => (
 	<div className="row-c">

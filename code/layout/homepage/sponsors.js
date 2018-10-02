@@ -12,9 +12,11 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 			{
 				gold.map( ( sponsor, i ) =>
 					<li className="row-h content gridgap sponsortier-item" key={ i }>
-						<svg className="sponsortier-logo" role="img" title={ sponsor.name }>
-							<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
-						</svg>
+						<div className="sponsortier-logo">
+							<svg role="img" title={ sponsor.name }>
+								<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
+							</svg>
+						</div>
 						<div className="sponsortier-blurb">{ _parseMD( sponsor.blurb ) }</div>
 					</li>
 				)
@@ -24,9 +26,11 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 			{
 				silver.map( ( sponsor, i ) =>
 					<li className="row-h content gridgap sponsortier-item" key={ i }>
-						<svg className="sponsortier-logo" role="img" title={ sponsor.name }>
-							<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
-						</svg>
+						<div className="sponsortier-logo">
+							<svg role="img" title={ sponsor.name }>
+								<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
+							</svg>
+						</div>
 						<div className="sponsortier-blurb">{ _parseMD( sponsor.blurb ) }</div>
 					</li>
 				)
@@ -36,9 +40,11 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 			{
 				bronze.map( ( sponsor, i ) =>
 					<li className="row-h content gridgap sponsortier-item" key={ i }>
-						<svg className="sponsortier-logo" role="img" title={ sponsor.name }>
-							<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
-						</svg>
+						<div className="sponsortier-logo">
+							<svg role="img" title={ sponsor.name }>
+								<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
+							</svg>
+						</div>
 						<div className="sponsortier-blurb">{ _parseMD( sponsor.blurb ) }</div>
 					</li>
 				)
@@ -48,9 +54,11 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 			{
 				community.map( ( sponsor, i ) =>
 					<li className="row-h content gridgap sponsortier-item" key={ i }>
-						<svg className="sponsortier-logo" role="img" title={ sponsor.name }>
-							<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
-						</svg>
+						<div className="sponsortier-logo">
+							<svg role="img" title={ sponsor.name }>
+								<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
+							</svg>
+						</div>
 						<div className="sponsortier-blurb">{ _parseMD( sponsor.blurb ) }</div>
 					</li>
 				)
@@ -60,9 +68,11 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 			{
 				organizers.map( ( sponsor, i ) =>
 					<li className="row-h content gridgap sponsortier-item" key={ i }>
-						<svg className="sponsortier-logo" role="img" title={ sponsor.name }>
-							<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
-						</svg>
+						<div className="sponsortier-logo">
+							<svg role="img" title={ sponsor.name }>
+								<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ sponsor.svg }`, _ID ) }/>
+							</svg>
+						</div>
 						<div className="sponsortier-blurb">{ _parseMD( sponsor.blurb ) }</div>
 					</li>
 				)

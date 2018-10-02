@@ -25,14 +25,13 @@ const Footer = ({ _body }) => (
 					<rect className="l l4" width="5" height="5" x="18" y="12"/>
 					<rect className="l l4" width="5" height="5" x="12" y="18"/>
 					<rect className="l l4" width="5" height="5" x="6" y="24"/>
-					<rect className="l b l5" width="5" height="5" x="30" y="6"/>
 					<rect className="l l5" width="5" height="5" x="24" y="12"/>
 					<rect className="l l5" width="5" height="5" x="18" y="18"/>
 					<rect className="l l5" width="5" height="5" x="12" y="24"/>
 					<rect className="l b l5" width="5" height="5" x="6" y="30"/>
 					<rect className="l b l6" width="5" height="5" x="42"/>
 					<rect className="l b l6" width="5" height="5" x="36" y="6"/>
-					<rect className="l l6" width="5" height="5" x="30" y="12"/>
+					<rect className="l b l6" width="5" height="5" x="30" y="12"/>
 					<rect className="l l6" width="5" height="5" x="24" y="18"/>
 					<rect className="l l6" width="5" height="5" x="18" y="24"/>
 					<rect className="l l6" width="5" height="5" x="12" y="30"/>

@@ -34,7 +34,8 @@ Install dependencies with preferably [`yarn`](https://yarnpkg.com/) and run one 
 
 ## License
 
-Copyright (c) Code Heart Design. Licensed under [GNU-GPLv3](https://raw.githubusercontent.com/https://github.com/codeheartdesign/codeheartdesign.com/master/LICENSE).
+Copyright (c) Code Heart Design.
+Licensed under [GNU-GPLv3](https://raw.githubusercontent.com/https://github.com/codeheartdesign/codeheartdesign.com/master/LICENSE).
 
 
 **[⬆ back to top](#contents)**

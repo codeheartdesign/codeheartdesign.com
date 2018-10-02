@@ -42,8 +42,7 @@ community:
   - name: Lookahead
     svg: lookahead
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      Technical recruiters who are actually technical. We hire front end, Javascript and Ruby developers.
 organizers:
   - name: Thinkmill
     svg: thinkmill
