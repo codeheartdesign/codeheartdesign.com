@@ -10,7 +10,3 @@ _From the people who brought you [React Sydney](https://www.meetup.com/React-Syd
 </div>
 
 ---
-
-## Speakers
-
-**Submit a talk at http://bit.ly/codeheartdesign-cfp**
