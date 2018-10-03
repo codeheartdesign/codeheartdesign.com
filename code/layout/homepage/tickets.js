@@ -23,7 +23,7 @@ const Tickets = ({ headline, tickets, _parseMD, _self }) => (
 											<span className="btn btn--disabled">{ ticket.btn }</span>
 											<span className="muted">{ ticket.disabled }</span>
 										</Fragment>
-									: <a className="btn" href={ ticket.link }>{ ticket.btn }</a>
+									: <tito-button class="tito-wrapper" event="code-heart-design/2018">{ ticket.btn }</tito-button>
 							}
 						</div>
 					</li>

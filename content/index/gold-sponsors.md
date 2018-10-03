@@ -7,7 +7,7 @@ sponsors:
   - svg: ansarada
     alt: Ansarada Gold Sponsors of Code Heart Design
     url: https://www.ansarada.com/
-  - img: https://via.placeholder.com/130x30
+  - svg: lendi
     alt: Lendi Gold Sponsors of Code Heart Design
     url: https://www.lendi.com.au/
   - svg: pwc

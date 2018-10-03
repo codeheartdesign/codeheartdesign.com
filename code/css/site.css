@@ -319,7 +319,8 @@ nav {
 
 /* ====================== BUTTON ====================== */
 .btn,
-a.btn {
+a.btn,
+.tito-tickets-button {
 	display: inline-block;
 	appearance: none;
 	border: none;
@@ -331,8 +332,10 @@ a.btn {
 	font-weight: bold;
 	color: var(--action-fg);
 	text-align: center;
+	cursor: pointer;
 }
-.btn:hover {
+.btn:hover,
+.tito-tickets-button:hover {
 	color: var(--action-fg);
 }
 .btn--lg,
@@ -364,7 +367,8 @@ a.btn--disabled,
 	padding: 1rem 2rem 2rem 2rem;
 }
 .goldSponsors-img {
-	max-width: 13rem;
+	max-width: 12rem;
+	max-height: 4rem;
 }
 .goldSponsors-content a {
 	margin: 1rem 1rem 0 1rem;
@@ -387,6 +391,7 @@ a.btn--disabled,
 	display: grid;
 	grid-template-columns: repeat( 9, [col-start] 1fr );
 	margin-bottom: 1.5rem;
+	margin-top: 0.75rem;
 }
 .schedule-title {
 	grid-column: col-start / -1;
@@ -425,6 +430,7 @@ a.btn--disabled,
 @media (min-width: 1050px) {
 	.schedule-body {
 		grid-template-columns: repeat( 8, [col-start] 1fr );
+		margin-top: 0;
 	}
 	.schedule-time {
 		grid-column: col-start / 2;
@@ -474,7 +480,6 @@ a.btn--disabled,
 }
 .tickets-links .muted {
 	display: block;
-	text-align: center;
 	margin-top: 0.5rem;
 }
 @media (min-width: 1050px) {
@@ -487,8 +492,14 @@ a.btn--disabled,
 	.tickets-links {
 		grid-column: col-start 7 / -1;
 	}
-	.tickets-links .btn {
+	.tickets-links .btn,
+	.tickets-links .tito-tickets-button {
+		box-sizing: border-box;
 		display: block;
+		width: 100%;
+	}
+	.tickets-links .muted {
+		text-align: center;
 	}
 }
 
