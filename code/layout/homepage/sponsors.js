@@ -1,3 +1,4 @@
+import { SVGSprite } from './../helper';
 import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 
@@ -12,7 +13,7 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 			<div className="sponsortier-logo">
 				<a href={ url } target="_blank" rel="noopener noreferrer">
 					<svg role="img" title={ name }>
-						<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg#${ svg }`, _ID ) }/>
+						<use xlinkHref={ SVGSprite( svg, _relativeURL, _ID ) }/>
 					</svg>
 				</a>
 			</div>

@@ -1,3 +1,4 @@
+import { SVGSprite } from './../helper';
 import PropTypes from 'prop-types';
 import React from 'react';
 
@@ -15,7 +16,7 @@ const GoldSponsors = ({ sponsors, _relativeURL, _ID }) => (
 						{
 							sponsor.svg &&
 								<svg className="goldSponsors-img" role="img" title={ sponsor.alt }>
-									<use xlinkHref={ _relativeURL( `assets/svg/sprite.svg?v1#${ sponsor.svg }-centered`, _ID ) }/>
+									<use xlinkHref={ SVGSprite( sponsor.svg, _relativeURL, _ID ) }/>
 								</svg>
 						}
 					</a>
