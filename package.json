@@ -17,6 +17,9 @@
 			"assets": "code/assets",
 			"site": "docs",
 			"docs": "docs/docs"
+		},
+		"site": {
+			"markdownRenderer": "code/markdown/index.js"
 		}
 	},
 	"devDependencies": {
