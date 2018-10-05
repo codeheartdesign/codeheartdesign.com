@@ -3,18 +3,18 @@ import PropTypes from 'prop-types';
 
 
 /**
- * The Section component
+ * The Organisers component
  */
-const Section = ({ headline, _body, _self }) => (
+const Organisers = ({ headline, _self }) => (
 	<Fragment>
 		<h3 className="row-h contentHeadline" id={ _self.split('/').slice(-1).join('').replace('.md', '') } tabIndex="0">{ headline }</h3>
-		<div className={`row-h content section section-${ headline.toLowerCase().replace(' ', '-') }`}>{ _body }</div>
+		<div className="row-h content section">xxx</div>
 	</Fragment>
 );
 
-Section.propTypes = {
+Organisers.propTypes = {
 	/**
-	 * headline: Section
+	 * headline: Organisers
 	 */
 	headline: PropTypes.string.isRequired,
 
@@ -24,6 +24,6 @@ Section.propTypes = {
 	_body: PropTypes.node.isRequired,
 };
 
-Section.defaultProps = {};
+Organisers.defaultProps = {};
 
-export default Section;
+export default Organisers;

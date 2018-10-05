@@ -14,7 +14,10 @@ module.exports = exports = function renderer({ Marked, _ID, _relativeURL }) {
 	Marked.link = ( href, title, text ) => {
 		let attr = '';
 		if( href.startsWith('http://') || href.startsWith('https://') ) {
-			attr = ` target="_blank" rel="noopener noreferrer"`;
+			attr = ' target="_blank" rel="noopener noreferrer"';
+		}
+		else if( href.startsWith('#') ) {
+			attr = 'class="js-scroll"';
 		}
 		else if( !href.startsWith('#') && typeof _relativeURL === 'function' ) {
 			href = _relativeURL( href, _ID );

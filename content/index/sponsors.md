@@ -30,8 +30,9 @@ silver:
     svg: interplay
     url: https://interplayapp.com/
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      Design and prototype in the browser, using your design system code components.
+      Drag-and-drop React, Vue and Angular components into responsive prototypes and start user testing immediately.
+      Workshop details coming soon.
 bronze:
   - name: Invision
     svg: invision

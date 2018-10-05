@@ -338,6 +338,11 @@ a.btn,
 .tito-tickets-button:hover {
 	color: var(--action-fg);
 }
+.btn.btn--muted,
+.btn.btn--muted:hover {
+	background: var(--fg);
+	color: var(--bg);
+}
 .btn--lg,
 a.btn--lg {
 	font-size: 1.2rem;
@@ -511,6 +516,22 @@ a.btn--disabled,
 /* ====================== SECTION ====================== */
 .section * {
 	grid-column: col-start / -1;
+}
+
+/* ====================== CHARITY ====================== */
+.charity-logos {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+.charity-logos li {
+	display: inline-block;
+	margin: 0 1rem 1rem 0;
+}
+.charity-logos img {
+	display: inline-block;
+	max-width: 200px;
 }
 
 /* ====================== SPONSORTIER ====================== */
