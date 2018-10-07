@@ -1,6 +1,6 @@
 ---
 layout: homepage/section
-headline: Workshop
+headline: Organisers
 ---
 
 More infos soon.

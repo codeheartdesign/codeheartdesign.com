@@ -1,83 +1,41 @@
-/* ====================== VARS ====================== */
-:root {
-	--bg: #1A2441;
-	--bg-1: #1D2744;
-	--action: #FC63B3;
-	--action-fg: #1A2441;
-	--fg: #fff;
-	--border: #3A506B;
-	--border-1: rgba( 58, 80, 107, 0.2 );
-	--muted: #7E90B5;
+/* ====================== HEADER ====================== */
+header {
+	margin: 3rem 1rem 1rem 1rem;
+	text-align: center;
 }
-
-/* ====================== BASICS ====================== */
-html {
-	height: 100%;
-}
-body {
+header h1 {
+	display: inline;
 	margin: 0;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	line-height: 1.2;
-	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+.logo .heart {
+	max-width: 34.5rem;
+	max-height: 5.35rem;
+}
+.header {
+	text-align: center;
+}
+.header .headline {
+	font-size: 1.2rem;
+}
+.header .body {
+	font-family: 'Lora', serif;
+	font-style: italic;
+}
+.header .body a {
 	color: var(--fg);
-	background: var(--bg);
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-@keyframes focus {
-	from {
-		outline-color: var(--fg);
-	}
-	to {
-		outline-color: transparent;
-	}
-}
-*:focus {
-	outline: 3px dotted var(--fg);
-	outline-offset: 3px;
-}
-*[tabIndex]:focus {
-	animation: focus 2s forwards linear;
-}
-
-::selection {
-	background-color: rgba( 255, 82, 182, 0.99 );
-	color: var(--action-fg);
-}
-
-a,
-a:hover,
-a:visited,
-a:focus {
-	color: var(--action);
-	text-decoration: none;
-}
-a:hover {
 	text-decoration: underline;
 }
-
-.sr-only {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	padding: 0;
-	margin: -1px;
-	overflow: hidden;
-	clip: rect( 0, 0, 0, 0 );
-	border: 0;
+.header .body a:hover,
+.header .body a:focus {
+	color: var(--action);
 }
-
-.list {
-	list-style: none;
-	padding: 0;
-	margin: 0;
+.header .btn {
+	margin-top: 2rem;
 }
-
-.muted {
-	font-size: 0.875rem;
-	color: var(--muted);
+@media (min-width: 500px) {
+	.header .headline {
+		font-size: 2rem;
+	}
 }
 
 /* ====================== GRID ====================== */
@@ -194,47 +152,6 @@ footer .heart:hover .b {
 	footer .heart {
 		width: 25rem;
 		height: 25rem;
-	}
-}
-
-/* ====================== HEADER ====================== */
-header {
-	margin: 3rem 1rem 1rem 1rem;
-	text-align: center;
-}
-header h1 {
-	display: inline;
-	margin: 0;
-}
-.logo .heart {
-	max-width: 34.5rem;
-	max-height: 5.35rem;
-}
-
-.header {
-	text-align: center;
-}
-.header .headline {
-	font-size: 1.2rem;
-}
-.header .body {
-	font-family: 'Lora', serif;
-	font-style: italic;
-}
-.header .body a {
-	color: var(--fg);
-	text-decoration: underline;
-}
-.header .body a:hover,
-.header .body a:focus {
-	color: var(--action);
-}
-.header .btn {
-	margin-top: 2rem;
-}
-@media (min-width: 500px) {
-	.header .headline {
-		font-size: 2rem;
 	}
 }
 

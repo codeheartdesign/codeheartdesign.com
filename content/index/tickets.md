@@ -10,11 +10,11 @@ tickets:
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
     disabled: Available soon
-    btn: Buy now – $10
+    btn: Buy now – $15
   - headline: Second batch conference tickets
     subline: |
       Swoop up the last batch of tickets before we are cold out.
-    btn: Buy now – $10
+    btn: Buy now – $15
     disabled: Available soon
   - headline: Workshop + Conference ticket
     subline: |

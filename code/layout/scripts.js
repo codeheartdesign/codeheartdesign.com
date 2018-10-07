@@ -9,6 +9,7 @@ import React, { Fragment } from 'react';
  */
 const Scripts = ({ _ID, _relativeURL }) => (
 	<Fragment>
+		<script src='https://js.tito.io/v1' async/>
 		<script src="https://www.google-analytics.com/analytics.js" async defer/>
 		<script type="text/javascript" src={ _relativeURL( `/assets/js/script.min.js`, _ID ) }/>
 	</Fragment>

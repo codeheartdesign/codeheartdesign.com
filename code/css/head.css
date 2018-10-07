@@ -1,0 +1,81 @@
+/* ====================== VARS ====================== */
+:root {
+	--bg: #1A2441;
+	--bg-1: #1D2744;
+	--action: #FC63B3;
+	--action-fg: #1A2441;
+	--fg: #fff;
+	--border: #3A506B;
+	--border-1: rgba( 58, 80, 107, 0.2 );
+	--muted: #7E90B5;
+}
+
+/* ====================== BASICS ====================== */
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	line-height: 1.2;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+	color: var(--fg);
+	background: var(--bg);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+@keyframes focus {
+	from {
+		outline-color: var(--fg);
+	}
+	to {
+		outline-color: transparent;
+	}
+}
+*:focus {
+	outline: 3px dotted var(--fg);
+	outline-offset: 3px;
+}
+*[tabIndex]:focus {
+	animation: focus 2s forwards linear;
+}
+
+::selection {
+	background-color: rgba( 255, 82, 182, 0.99 );
+	color: var(--action-fg);
+}
+
+a,
+a:hover,
+a:visited,
+a:focus {
+	color: var(--action);
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+
+.sr-only {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	padding: 0;
+	margin: -1px;
+	overflow: hidden;
+	clip: rect( 0, 0, 0, 0 );
+	border: 0;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.muted {
+	font-size: 0.875rem;
+	color: var(--muted);
+}
