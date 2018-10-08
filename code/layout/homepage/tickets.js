@@ -23,7 +23,9 @@ const Tickets = ({ headline, tickets, _parseMD, _self }) => (
 											<span className="btn btn--disabled">{ ticket.btn }</span>
 											<span className="muted">{ ticket.disabled }</span>
 										</Fragment>
-									: <tito-button class="tito-wrapper" event="code-heart-design/2018">{ ticket.btn }</tito-button>
+									: <tito-button class="tito-wrapper" event="code-heart-design/2018">
+											<a className="btn" href="https://ti.to/code-heart-design/2018?moons=2" target="_blank" rel="noopener noreferrer">{ ticket.btn }</a>
+										</tito-button>
 							}
 						</div>
 					</li>

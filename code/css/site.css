@@ -266,6 +266,11 @@ a.btn,
 .btn:hover,
 .tito-tickets-button:hover {
 	color: var(--action-fg);
+	text-decoration: underline;
+}
+.tito-tickets-button > .btn {
+	padding: 0;
+	pointer-events: none;
 }
 .btn.btn--muted,
 .btn.btn--muted:hover {
