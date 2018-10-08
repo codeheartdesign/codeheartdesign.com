@@ -79,16 +79,21 @@ main.wrapper,
 .row-h {
 	grid-column: col-start / -1;
 }
-@media (min-width: 800px) {
-	.row-c {
-		grid-column: col-start 2 / -2;
-	}
+@media (min-width: 480px) {
 	.row-m {
 		grid-column: col-start 2 / -2;
 	}
+}
+@media (min-width: 800px) {
+	.row-c {
+		grid-column: col-start / -1;
+	}
+	.row-m {
+		grid-column: col-start / -1;
+	}
 	.row-h,
 	.content.row-h {
-		grid-column: col-start 2 / -1;
+		grid-column: col-start / -1;
 	}
 	.content .content.row-h {
 		grid-column: col-start / -1;
@@ -97,6 +102,13 @@ main.wrapper,
 @media (min-width: 1050px) {
 	.row-c {
 		grid-column: col-start 3 / -3;
+	}
+	.row-h,
+	.content.row-h {
+		grid-column: col-start 2 / -1;
+	}
+	.row-m {
+		grid-column: col-start 2 / -2;
 	}
 	.content .content.row-h {
 		grid-column: col-start 2 / -1;
@@ -183,7 +195,7 @@ nav {
 		top: 0;
 	}
 }
-@media (min-width: 980px) {
+@media (min-width: 1050px) {
 	nav {
 		grid-column: col-start 10 / -2;
 	}
@@ -265,6 +277,10 @@ a.btn--lg {
 	font-size: 1.2rem;
 	padding: 1rem 2rem;
 }
+.btn:disabled,
+.btn:hover,
+.tito-tickets-button:disabled,
+.tito-tickets-button:disabled:hover,
 .btn--disabled,
 a.btn--disabled,
 .btn.btn--disabled:hover {
