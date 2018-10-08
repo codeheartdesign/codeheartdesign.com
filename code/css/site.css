@@ -278,7 +278,7 @@ a.btn--lg {
 	padding: 1rem 2rem;
 }
 .btn:disabled,
-.btn:hover,
+.btn:disabled:hover,
 .tito-tickets-button:disabled,
 .tito-tickets-button:disabled:hover,
 .btn--disabled,
