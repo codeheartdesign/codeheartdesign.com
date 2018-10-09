@@ -4,7 +4,7 @@ headline: Organisers
 organisers:
   - name: Alex Skougarevskaya
     img: alex-skougarevskaya.jpg
-    position: Design Team Lead
+    position: Design Manager for Atlassian Design System
     company: Atlassian
     link: https://www.atlassian.com
     blurb: |
@@ -18,7 +18,7 @@ organisers:
       Organiser of [Design System Meetup](https://designsystemmeetup.com)
   - name: Jess Telford
     img: jess-telford.jpg
-    position: CEO
+    position: Co-founder
     company: Cete
     link: https://cete.io/
     blurb: |
