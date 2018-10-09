@@ -292,6 +292,7 @@ a.btn--disabled,
 	background-color: var(--border);
 	color: var(--fg);
 	cursor: not-allowed;
+	text-decoration: none;
 }
 
 /* ====================== GOLDSPONSORS ====================== */
@@ -359,6 +360,10 @@ a.btn--disabled,
 	font-family: 'Lora', serif;
 	font-style: italic;
 	font-size: 1rem;
+	background: var(--action);
+	color: var(--bg);
+	padding: 0.2rem;
+	border-radius: 2px;
 	letter-spacing: normal;
 	text-transform: none;
 	margin-right: 0.5rem;
@@ -463,6 +468,29 @@ a.btn--disabled,
 /* ====================== SECTION ====================== */
 .section * {
 	grid-column: col-start / -1;
+}
+.section-banner {
+	height: 180px;
+	background-position: top center;
+	background-size: auto 180px;
+	margin-bottom: 2rem;
+}
+.section p + ul,
+.section p + ol {
+	margin-top: -0.5rem;
+}
+.section p,
+.section li {
+	max-width: 42em;
+}
+.section ul,
+.section ol {
+	padding-left: 1rem;
+}
+.section h4,
+.section h5,
+.section h6 {
+	margin-top: 0;
 }
 
 /* ====================== CHARITY ====================== */

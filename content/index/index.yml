@@ -9,9 +9,9 @@ main:
 
 body:
   - schedule.md
-  - workshop.md
   - tickets.md
   - location.md
+  - workshop.md
   - sponsors.md
   - charity.md
   - organisers.md
