@@ -49,11 +49,11 @@ body {
 
 a,
 a:hover,
-a:visited,
-a:focus {
+a:visited {
 	color: var(--fg);
 }
-a:hover {
+a:hover,
+a:focus {
 	text-decoration: underline;
 	color: var(--action);
 }

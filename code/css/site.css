@@ -21,14 +21,6 @@ header h1 {
 	font-family: 'Lora', serif;
 	font-style: italic;
 }
-.header .body a {
-	color: var(--fg);
-	text-decoration: underline;
-}
-.header .body a:hover,
-.header .body a:focus {
-	color: var(--action);
-}
 .header .btn {
 	margin-top: 2rem;
 }
@@ -238,12 +230,6 @@ nav {
 .navlist li a {
 	display: block;
 	padding: 1rem 0;
-	color: var(--fg);
-	text-decoration: underline;
-}
-.navlist li a:hover,
-.navlist li a:focus {
-	color: var(--action);
 }
 
 /* ====================== BUTTON ====================== */
