@@ -9,17 +9,16 @@ tickets:
   - headline: First batch conference tickets
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
-    disabled: Available soon
+    disabled: Available from 29th Oct
     btn: Buy now – $15
-  - headline: Second batch conference tickets
-    subline: |
-      Swoop up the last batch of tickets before we are cold out.
-    btn: Buy now – $15
-    disabled: Available soon
+  # - headline: Second batch conference tickets
+  #   subline: |
+  #     Swoop up the last batch of tickets before we are cold out.
+  #   btn: Buy now – $15
+  #   disabled: Available from 12th Nov
   - headline: Workshop + Conference ticket
     subline: |
-      Attend Sharron workshop the day before, and then come to conference the next day.
+      Attend Sharron's workshop before, and then come to conference right after.
       [Learn more](#workshop).
     btn: Buy now – $260
-    disabled: Will be available soon
 ---

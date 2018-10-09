@@ -354,6 +354,15 @@ a.btn--disabled,
 .schedule-role {
 	margin: 0;
 }
+.schedule-keynote {
+	display: inline-block;
+	font-family: 'Lora', serif;
+	font-style: italic;
+	font-size: 1rem;
+	letter-spacing: normal;
+	text-transform: none;
+	margin-right: 0.5rem;
+}
 .schedule-name {
 	text-transform: uppercase;
 	letter-spacing: 2.6px;

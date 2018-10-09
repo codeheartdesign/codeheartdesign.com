@@ -7,12 +7,27 @@ schedule:
     title: Doors open + welcome
   - from: "1:00pm"
     to: "2:00pm"
+    keynote: true
     name: Sharon Ashley Steed
     img: sharon-ashley-steed.jpg
-    role: Role description / Company Name ltd.
+    role: Principal / Communilogue
     description: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      **Creating Cultures of Empathy**
+
+      The most successful endeavors all follow the same general trajectory:
+      a decent idea executed flawlessly by a cohesive team of hard workers.
+      No matter the project, everything can be achieved following this general guideline.
+      But the exact thing that can create global companies, solve impossible problems, and bring ideas to life is also the same reason why so many companies
+      fail.
+      That thing is us.
+      People.
+      But when we’re at our best, there isn’t anything we can’t do.
+      So how do we optimize collaboration? How do we work better together even if we don’t see eye to eye with everyone on our teams? And how do we create a
+      culture of empathy when all we can see about everyone around us is our differences?
+
+      Sharon Steed explores empathy in an unusual way:
+      from the perspective of a stutterer.
+      Sharon explains what empathy is (and what it isn’t) and gives you the tools you need to create a culture of empathy on your team.
   - from: "2:00pm"
     to: "3:00pm"
     name: Mark Dalgleish
