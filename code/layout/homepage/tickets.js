@@ -48,18 +48,21 @@ Tickets.propTypes = {
 	 *       Description about the ticket
 	 *       with markdown support
 	 *     btn: Buy now – $10
+	 *     type: 1hldv99zgu
 	 *     disabled: Available soon
 	 *   - headline: Workshop + Conference ticket
 	 *     subline: |
 	 *       Description about the ticket
 	 *       with markdown support
 	 *     btn: Buy now – $260
+	 *     type: 1hldv99zgu
 	 */
 	tickets: PropTypes.arrayOf(
 		PropTypes.shape({
 			headline: PropTypes.string.isRequired,
 			subline: PropTypes.string.isRequired,
 			btn: PropTypes.string.isRequired,
+			type: PropTypes.string.isRequired,
 			disabled: PropTypes.string,
 		})
 	).isRequired,

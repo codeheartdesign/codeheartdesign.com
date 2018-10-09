@@ -22,7 +22,7 @@ Section.propTypes = {
 	headline: PropTypes.string.isRequired,
 
 	/**
-	 * banner: Section
+	 * banner: image.jpg
 	 */
 	banner: PropTypes.string,
 

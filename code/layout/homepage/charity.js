@@ -37,6 +37,33 @@ Charity.propTypes = {
 	headline: PropTypes.string.isRequired,
 
 	/**
+	 * logos:
+	 *   - name: National Centre of Indigenous Excellence
+	 *     img: NCIE.png
+	 *     link: https://ncie.org.au
+	 *   - name: Indigenous Digital Excellence
+	 *     img: IDX.png
+	 *     link: https://ncie.org.au/community-programs/idx/
+	 */
+	logos: PropTypes.arrayOf(
+		PropTypes.shape({
+			name: PropTypes.string.isRequired,
+			img: PropTypes.string.isRequired,
+			link: PropTypes.string.isRequired,
+		})
+	).isRequired,
+
+	/**
+	 * button:
+	 *   title: Donate now
+	 *   link: http://www.givenow.com.au/ncie
+	 */
+	button: PropTypes.shape({
+		title: PropTypes.string.isRequired,
+		link: PropTypes.string.isRequired,
+	}).isRequired,
+
+	/**
 	 * _body: (text)(12)
 	 */
 	_body: PropTypes.node.isRequired,
