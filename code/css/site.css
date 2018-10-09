@@ -262,6 +262,7 @@ a.btn,
 	color: var(--action-fg);
 	text-align: center;
 	cursor: pointer;
+	text-decoration: none;
 }
 .btn:hover,
 .tito-tickets-button:hover {

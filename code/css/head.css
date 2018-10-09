@@ -51,11 +51,11 @@ a,
 a:hover,
 a:visited,
 a:focus {
-	color: var(--action);
-	text-decoration: none;
+	color: var(--fg);
 }
 a:hover {
 	text-decoration: underline;
+	color: var(--action);
 }
 
 .sr-only {
