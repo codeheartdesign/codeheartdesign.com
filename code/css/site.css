@@ -562,7 +562,6 @@ a.btn--disabled,
 .organiser li {
 }
 .organiser img {
-	max-height: 200px;
 	max-width: 100%;
 }
 @media (min-width: 780px) {
