@@ -14,20 +14,20 @@ gold:
     svg: ansarada
     url: https://www.ansarada.com/
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      TODO
   - name: Lendi
     svg: lendi
     url: https://www.lendi.com.au/
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      Lendi is Australia’s number one home loan platform, bringing together technology and home loan specialist advice to help Australians search, choose and
+      settle their home loans online.
+      The platform uses smart technology to search more than 2,500 loan products from 37 lenders and provide a shortlist of options suited to the individual’s
+      circumstances.
   - name: PWC
     svg: pwc
     url: https://www.pwc.com.au/
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      TODO
 silver:
   - name: Interplay
     svg: interplay
@@ -41,15 +41,13 @@ bronze:
     svg: invision
     url: https://www.invisionapp.com/
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      TODO
 community:
   - name: Expert360
     svg: expert360
     url: https://expert360.com/
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      TODO
   - name: Lookahead
     svg: lookahead
     url: https://www.lookahead.com.au/
