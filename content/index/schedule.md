@@ -45,10 +45,11 @@ schedule:
   - from: "1:50pm"
     to: "2:00pm"
     name: Patrick De Young
-    img: patrick-deyoung.jpg # TODO
+    img: patrick-deyoung.jpg
     role: Sr Product Manager / Domain
     description: |
-      **10 Rules for a Successful Product or How To Work With Developers and Designers**
+      **10 Rules for a Successful Product**<br>
+      or How To Work With Developers and Designers
 
       Delivering a successful product is easy:
       mix two parts empathy with one part innovation, shake well and garnish with the JavaScript framework of your choice.
