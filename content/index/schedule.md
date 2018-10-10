@@ -57,21 +57,22 @@ schedule:
       And someone to bring those designs to life.
       Working with designers and developers doesn't need to be the nightmare you're imagining.
       Listen in as I share my experience as a product manager, conveniently distilled into 10 rules for delivering a successful product.
-  
+
   - from: "2:05pm"
     to: "2:25pm"
-    name: To be announced
-    img: unknown.jpg
-    role: Role / Company
+    name: Isabel Brison
+    img: isabel-brison.jpg
+    role: Front end engineer / Fairfax Media
     description: |
-      Speaker to be announced soon
-  # - from: "2:05pm"
-  #   to: "2:25pm"
-  #   name: Isabel Brison
-  #   img: isabel-brison.jpg # TODO
-  #   role: TODO / TODO
-  #   description: |
-  #     TODO
+      Modern web app architecture, whichever framework you use, focuses on separation of concerns and reusability.
+      The current trend towards design systems feeds into this logic, abstracting a highly reusable presentational layer.
+
+      Design is Atomic; code is neatly separated into presentational and container components.
+      But what happens when these different paradigms meet in the middle? Should the app architecture be influenced by Atomic principles? How do we represent
+      state changes in the design system?
+
+      We’ll look at a few problems that might pop up when applying these principles to a real world product (especially when working to tight deadlines) and
+      share a few tips on how to avoid pitfalls and build a clean, scalable codebase, all while staying on speaking terms with the design team.
 
   - from: "2:25pm"
     to: "2:50pm"
