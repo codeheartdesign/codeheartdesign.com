@@ -363,7 +363,7 @@ a.btn--disabled,
 	align-items: center;
 	margin-top: 2rem;
 	background-color: var(--border-1);
-	padding: 1rem 2rem 2rem 2rem;
+	padding: 1rem 2rem 1.25rem 2rem;
 }
 .goldSponsors-img {
 	max-width: 7rem;
