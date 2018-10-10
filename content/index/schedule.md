@@ -90,10 +90,16 @@ schedule:
   # - from: "2:55pm"
   #   to: "3:25pm"
   #   name: Jed Watson
-  #   img: jed-watson.jpg # TODO
-  #   role: TODO / TODO
+  #   img: jed-watson.jpg
+  #   role: Co-Founder / Thinkmill
   #   description: |
-  #     TODO
+  #     It’s wild how much JavaScript has learned from CSS over the years.
+  #     Need to target a DOM element?
+  #     CSS Selectors have you covered!
+  #     Declarative code?
+  #     That was CSS long before it was React.
+  #     So as we boldly put our CSS in our JS and step into the component age, let’s take a look at some other lessons we can learn from the design language of
+  #     the web.
 
   # Below to be toggled for go live
   - from: "3:30pm"
