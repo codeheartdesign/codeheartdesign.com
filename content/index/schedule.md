@@ -52,11 +52,19 @@ schedule:
 
   # - from: "1:50pm"
   #   to: "2:00pm"
-  #   name: Patrick DeYoung
+  #   name: Patrick De Young
   #   img: patrick-deyoung.jpg
-  #   role: TODO / TODO
+  #   role: Sr Product Manager / Domain
   #   description: |
-  #     TODO
+  #     **10 Rules for a Successful Product or How To Work With Developers and Designers**
+
+  #     Delivering a successful product is easy:
+  #     mix two parts empathy with one part innovation, shake well and garnish with the JavaScript framework of your choice.
+  #     Job's done! Or so you thought.
+  #     You probably need someone to design your product.
+  #     And someone to bring those designs to life.
+  #     Working with designers and developers doesn't need to be the nightmare you're imagining.
+  #     Listen in as I share my experience as a product manager, conveniently distilled into 10 rules for delivering a successful product.
   # - from: "2:05pm"
   #   to: "2:25pm"
   #   name: Isabel Brison
@@ -153,5 +161,4 @@ schedule:
   # - from: "7:15pm"
   #   to: "8:00pm"
   #   title: Panel discussion
-
 ---

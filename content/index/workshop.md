@@ -1,12 +1,15 @@
 ---
-layout: homepage/section
+layout: homepage/workshop
 headline: Workshop
 banner: workshop.jpg
+name: Sharon Steed
+workshop: Communicating with Empathy
+abstract: |
+  Teaching developers and designers the behaviors needed to be effective communicators and optimal collaborators.
+link:
+  url: "#tickets"
+  name: Get tickets
 ---
-
-#### Communicating with Empathy
-
-_Teaching developers and designers the behaviors needed to be effective communicators and optimal collaborators._
 
 This half-day workshop explores the principles of empathy that foster the best, most  productive communication in individuals and on tech teams in the
 workplace.
@@ -22,5 +25,3 @@ from a place of understanding.
 **Primary focus:** Communication skills
 
 **Target audience:** Developers and designers
-
-[Get tickets](#tickets)

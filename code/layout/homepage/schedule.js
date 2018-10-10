@@ -18,18 +18,19 @@ const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) =>
 						</div>
 						<div className="schedule-body gridgap">
 							{ item.title && <span className="schedule-title">{ item.title }</span> }
-							{ item.img && <img className="schedule-img" src={ _relativeURL(`/assets/img/${ item.img }`, _ID) } alt={ item.name } /> }
-							<div className="schedule-details">
-								{
-									item.name &&
-										<p className="schedule-name">
-											{ item.keynote ? <span className="schedule-keynote">Keynote</span> : null }
-											{ item.name }
-										</p>
-								}
-								{ item.role && <p className="schedule-role">{ item.role }</p> }
-								{ item.description && <div className="schedule-description">{ _parseMD( item.description ) }</div> }
-							</div>
+							{ item.img &&
+								<div className="schedule-img">
+									<img src={ _relativeURL(`/assets/img/${ item.img }`, _ID) } alt={ item.name } />
+									{ item.keynote ? <span className="schedule-keynote">Keynote</span> : null }
+								</div>
+							}
+							{ item.name &&
+								<div className="schedule-details">
+									{ item.name && <p className="schedule-name">{ item.name }</p> }
+									{ item.role && <p className="schedule-role">{ item.role }</p> }
+									{ item.description && <div className="schedule-description">{ _parseMD( item.description ) }</div> }
+								</div>
+							}
 						</div>
 					</li>
 				)

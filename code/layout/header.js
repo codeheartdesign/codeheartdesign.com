@@ -6,7 +6,7 @@ import React from 'react';
  * The header component
  */
 const Header = ({ _relativeURL, _ID }) => (
-	<header className="row" role="banner">
+	<header className="row" role="banner" id="top">
 		<a className="logo" href={ _relativeURL( '/', _ID ) }>
 			<h1>
 				<svg className="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 60">

@@ -13,4 +13,7 @@ sponsors:
   - svg: pwc
     alt: PWC Gold Sponsors of Code Heart Design
     url: https://www.pwc.com.au/
+  - svg: thinkmill
+    alt: Thinkmill Gold Sponsors of Code Heart Design
+    url: https://www.thinkmill.com.au/
 ---

@@ -4,30 +4,26 @@ headline: Organisers
 organisers:
   - name: Alex Skougarevskaya
     img: alex-skougarevskaya.jpg
-    position: Design Manager for Atlassian Design System
-    company: Atlassian
-    link: https://www.atlassian.com
+    company: |
+      Design Manager for Atlassian Design System / [Atlassian](https://atlassian.design)
     blurb: |
       Organiser of [Design System Meetup](https://designsystemmeetup.com)
   - name: Dominik Wilowski
     img: dominik-wilowski.jpg
-    position: Team Lead
-    company: Thinkmill
-    link: https://www.thinkmill.com.au
+    company: |
+      Team Lead / [Thinkmill](https://www.thinkmill.com.au)
     blurb: |
       Organiser of [Design System Meetup](https://designsystemmeetup.com)
   - name: Jess Telford
     img: jess-telford.jpg
-    position: Co-founder
-    company: Cete
-    link: https://cete.io/
+    company: |
+      Co-founder / [Cete](https://cete.io/)
     blurb: |
       Organiser of [React Sydney](https://www.meetup.com/React-Sydney/)
   - name: Alex Leon
     img: alex-leon.jpg
-    position: DesignOps Team Lead
-    company: Ansarada
-    link: https://www.ansarada.com/
+    company: |
+      DesignOps Team Lead / [Ansarada](https://www.ansarada.com/)
     blurb: |
       Organiser of [Design System Meetup](https://designsystemmeetup.com)
 ---

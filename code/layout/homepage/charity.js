@@ -8,7 +8,7 @@ import PropTypes from 'prop-types';
 const Charity = ({ headline, logos, button, _body, _relativeURL, _ID, _self }) => (
 	<Fragment>
 		<h3 className="row-h contentHeadline" id={ _self.split('/').slice(-1).join('').replace('.md', '') } tabIndex="0">{ headline }</h3>
-		<div className="row-h content section charity">
+		<div className="row-h charity">
 			<ul className="charity-logos">
 				{
 					logos.map( ( logo, i ) =>

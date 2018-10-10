@@ -1,7 +1,8 @@
 /* ====================== HEADER ====================== */
 header {
-	margin: 3rem 1rem 1rem 1rem;
+	padding: 3rem 1rem 1rem 1rem;
 	text-align: center;
+	border-top: 0.5rem solid var(--fg);
 }
 header h1 {
 	display: inline;
@@ -43,6 +44,7 @@ header h1 {
 	grid-gap: 8px;
 }
 main.wrapper,
+footer.wrapper,
 .grid {
 	margin: 0 auto;
 	padding: 0 1rem;
@@ -136,26 +138,93 @@ main.wrapper,
 .heart:hover .l13 { animation-delay: 6s; }
 
 /* ====================== FOOTER ====================== */
-footer {
-	margin: 30rem 0 10rem 0;
+footer.wrapper {
 	text-align: center;
+	margin-top: 2rem;
+	color: var(--border);
 }
-footer .heart {
+.footer-logo-wrapper {
+	position: relative;
+	display: inline-block;
+	margin: 0 auto;
+}
+.footer-logo,
+.footer-body,
+.footer-gem {
+	grid-column: col-start / -1;
+}
+.footer-logo {
+	position: relative;
+	overflow: hidden;
+}
+.heart-logo {
+	width: 200px;
+}
+.heart-logo path,
+.heart-logo g {
+	fill: var(--border);
+}
+.footer-logo-wrapper:before,
+.footer-logo-wrapper:after {
+	content: '';
+	position: absolute;
+	right: 216px;
+	top: 12px;
+	width: 999999px;
+	border-top: 6px solid var(--border);
+	z-index: -1;
+}
+.footer-logo-wrapper:after {
+	left: 216px;
+	right: auto;
+}
+.footer-body a {
+	color: var(--border);
+}
+.footer-body a:hover {
+	color: var(--highlight);
+}
+.footer-body p {
+	margin: 0;
+}
+.heart-gem {
+	margin: 30rem 0 10rem 0;
 	display: inline-block;
 	width: 15rem;
 	height: 15rem;
 }
-footer .heart .b {
+.heart-gem .b {
 	animation: hue 60s infinite linear;
 }
-footer .heart:hover .b {
+.heart-gem:hover .b {
 	fill: var(--fg);
 	animation: none;
 }
+@media (min-width: 480px) {
+	.footer-logo,
+	.footer-body,
+	.footer-gem {
+		grid-column: col-start 2 / -2;
+	}
+}
+@media (min-width: 780px) {
+	.footer-logo,
+	.footer-body,
+	.footer-gem {
+		grid-column: col-start / -1;
+	}
+}
 @media (min-width: 1000px) {
-	footer .heart {
+	.heart-gem {
 		width: 25rem;
 		height: 25rem;
+	}
+}
+@media (min-width: 1050px) {
+	.footer-logo,
+	.footer-body,
+	.footer-gem {
+		grid-column: col-start 2 / -2;
 	}
 }
 
@@ -164,7 +233,7 @@ nav {
 	display: none;
 }
 .contentHeadline {
-	border-top: 0.5rem solid var(--border);
+	border-top: 0.5rem solid var(--fg);
 	padding: 1rem 0;
 	margin: 2rem 0 0 0;
 	font-weight: bold;
@@ -217,7 +286,7 @@ nav {
 /* ====================== NAV ====================== */
 .navlist {
 	list-style: none;
-	border-top: 0.5rem solid var(--border);
+	border-top: 0.5rem solid var(--fg);
 	padding: 0;
 	margin: 2rem 0 0 0;
 }
@@ -284,8 +353,6 @@ a.btn--disabled,
 
 /* ====================== GOLDSPONSORS ====================== */
 .goldSponsors {
-	border-top: 0.5rem solid var(--border);
-	margin-top: 3rem;
 	margin-bottom: -2rem;
 }
 .goldSponsors-content {
@@ -298,8 +365,8 @@ a.btn--disabled,
 	padding: 1rem 2rem 2rem 2rem;
 }
 .goldSponsors-img {
-	max-width: 12rem;
-	max-height: 4rem;
+	max-width: 7rem;
+	max-height: 3rem;
 }
 .goldSponsors-content a {
 	margin: 1rem 1rem 0 1rem;
@@ -326,7 +393,7 @@ a.btn--disabled,
 }
 .schedule-title {
 	grid-column: col-start / -1;
-	color: var(--action);
+	color: var(--highlight);
 	font-weight: bold;
 }
 .schedule-img,
@@ -335,22 +402,26 @@ a.btn--disabled,
 	grid-column: col-start / -1;
 }
 .schedule-img {
+	position: relative;
+}
+.schedule-img img {
 	width: 186px;
 	border-radius: 6px;
+	max-width: 100%;
 }
 .schedule-name,
 .schedule-role {
 	margin: 0;
 }
 .schedule-keynote {
-	display: inline-block;
-	font-family: 'Lora', serif;
-	font-style: italic;
-	font-size: 1rem;
+	position: absolute;
+	bottom: 1rem;
+	left: 0;
+	display: block;
+	font-weight: bold;
 	background: var(--action);
 	color: var(--bg);
-	padding: 0.2rem;
-	border-radius: 2px;
+	padding: 0.2rem 0.4rem;
 	letter-spacing: normal;
 	text-transform: none;
 	margin-right: 0.5rem;
@@ -362,7 +433,7 @@ a.btn--disabled,
 }
 .schedule-role {
 	margin-top: 0.5rem;
-	color: var(--action);
+	color: var(--highlight);
 	font-family: 'Lora', serif;
 	font-style: italic;
 	font-weight: bold;
@@ -464,11 +535,17 @@ a.btn--disabled,
 }
 .section p + ul,
 .section p + ol {
-	margin-top: -0.5rem;
+	margin-top: -0.125rem;
 }
 .section p,
 .section li {
 	max-width: 42em;
+}
+.section li + li {
+	margin-top: 0.5rem;
+}
+.section p {
+	margin: 0.5rem 0;
 }
 .section ul,
 .section ol {
@@ -493,7 +570,16 @@ a.btn--disabled,
 }
 .charity-logos img {
 	display: inline-block;
-	max-width: 200px;
+	max-width: 150px;
+}
+.charity .btn {
+	margin-top: 1.5rem;
+}
+@media (min-width: 650px) {
+	.charity-logos {
+		float: right;
+		padding: 0 0 0 1rem;
+	}
 }
 
 /* ====================== SPONSORTIER ====================== */
@@ -539,19 +625,84 @@ a.btn--disabled,
 
 /* ====================== ORGANISER ====================== */
 .organiser {
-	display: grid;
 	list-style: none;
 	padding: 0;
 	margin: 0;
-	grid-template-columns: repeat( 2, [col-start] 1fr );
 }
-.organiser li {
+.organiser p {
+	margin: 0.5rem 0;
 }
-.organiser img {
+.organiser-item + .organiser-item {
+	margin-top: 2rem;
+}
+.organiser-img {
 	max-width: 100%;
+	width: 150px;
+	border-radius: 6px;
+	grid-column: col-start / 3;
+}
+.organiser-details {
+	grid-column: col-start 3 / -1;
+}
+.organiser p.organiser-name {
+	margin-top: 0;
+	font-size: 1.125rem;
+	text-transform: uppercase;
+	letter-spacing: 2.6px;
+	font-weight: bold;
+}
+.organiser-company,
+.organiser-company a {
+	font-size: 1.125rem;
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Lora', serif;
+	color: var(--highlight);
+}
+@media (min-width: 480px) {
+	.organiser-item + .organiser-item {
+		margin-top: 1.5rem;
+	}
+	.organiser-item {
+		display: grid;
+		grid-template-columns: repeat( 10, [col-start] 1fr );
+	}
 }
 @media (min-width: 780px) {
-	.organiser {
-		grid-template-columns: repeat( 4, [col-start] 1fr );
+	.organiser p {
+		margin: 1rem 0;
 	}
+	.organiser-item {
+		grid-template-columns: repeat( 9, [col-start] 1fr );
+	}
+}
+@media (min-width: 1050px) {
+	.organiser-item {
+		grid-template-columns: repeat( 8, [col-start] 1fr );
+	}
+}
+
+/* ====================== WORKSHOP ====================== */
+.workshop-name,
+.workshop-workshop {
+	font-size: 1.5rem;
+}
+.workshop-name {
+	margin-bottom: 0.25rem;
+}
+.workshop-name {
+	font-weight: bold;
+	font-style: italic;
+	font-family: 'Lora', serif;
+	color: var(--highlight);
+}
+.workshop-abstract {
+	font-weight: bold;
+	font-size: 1.2rem;
+	margin-bottom: 1rem;
+	max-width: 43em;
+	line-height: 1.3;
+}
+.workshop .btn {
+	margin-top: 1.5rem;
 }

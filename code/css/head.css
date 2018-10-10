@@ -2,9 +2,10 @@
 :root {
 	--bg: #1A2441;
 	--bg-1: #1D2744;
+	--fg: #fff;
 	--action: #FC63B3;
 	--action-fg: #1A2441;
-	--fg: #fff;
+	--highlight: #A3CCFF;
 	--border: #3A506B;
 	--border-1: rgba( 58, 80, 107, 0.2 );
 	--muted: #7E90B5;

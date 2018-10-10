@@ -6,7 +6,10 @@ gold:
     svg: atlassian
     url: https://www.atlassian.com/
     blurb: |
-      Tools for teams, from startup to enterprise
+      Atlassian is a leading provider of collaboration, development, and issue tracking software for teams.
+      With over 100,000 global customers (including 85 of the Fortune 100), we’re advancing the power of collaboration with products including Jira, Confluence,
+      Bitbucket, and now Trello.
+      Driven by honest values, an amazing culture, and consistent revenue growth, we’re out to unleash the potential of every team.
   - name: Ansarada
     svg: ansarada
     url: https://www.ansarada.com/
@@ -57,6 +60,7 @@ organizers:
     svg: thinkmill
     url: https://www.thinkmill.com.au/
     blurb: |
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis id aliquam explicabo molestiae, adipisci vero quos ex! Tempora aliquid excepturi dolorum,
-      esse, exercitationem atque dolores iusto sapiente, reiciendis incidunt animi.
+      We are technology design and development firm.
+      Helping teams around the world develop platforms and ship products.
+      Guided by our core values of transparency and community, we are a driving force behind major open source projects used by millions globally.
 ---
