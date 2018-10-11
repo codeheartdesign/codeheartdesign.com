@@ -41,12 +41,15 @@ silver:
     blurb: |
       Design and prototype in the browser, using your design system code components.
       Drag-and-drop React, Vue and Angular components into responsive prototypes and start user testing immediately.
-      Workshop details coming soon.
 bronze:
   - name: Invision
     svg: invision
     url: https://www.invisionapp.com/
     blurb: |
+      InVision is the world's leading product design collaboration platform empowering teams of all sizes to design, prototype, review, iterate, manage and test
+      digital products.
+      Founded in 2011, with Sydney as the APAC regional hub, InVision helps millions of users at companies such as Atlassian, Netflix, Xero, Uber and Twitter
+      unlock the power of design-driven product development.
 community:
   - name: Expert360
     svg: expert360

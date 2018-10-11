@@ -2,7 +2,6 @@
 header {
 	padding: 3rem 1rem 1rem 1rem;
 	text-align: center;
-	border-top: 0.5rem solid var(--fg);
 }
 header h1 {
 	display: inline;

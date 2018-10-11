@@ -7,6 +7,7 @@ tickets:
       Secure your ticket as an early bird attendee.
     btn: Buy now
     price: $10
+    disabled: Available from 15th Oct
     type: vi-bo8k4fu
     validfrom: 2018-10-15T09:00
     validto: 2018-10-28T21:00
@@ -34,6 +35,7 @@ tickets:
       [Learn more](#workshop).
     btn: Buy now
     price: $270
+    disabled: Available from 15th Oct
     type: 1hldv99zgu
     validfrom: 2018-10-15T09:00
     validto: 2018-11-30T12:00
