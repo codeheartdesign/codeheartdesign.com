@@ -182,20 +182,21 @@ schedule:
     startDate: 2018-11-30T17:20
     to: "5:45pm"
     endDate: 2018-11-30T17:45
-    name: To be announced
-    img: unknown.jpg
-    role: Role / Company
+    name: Patrick Thompson
+    img: patrick-thompson.jpg
+    role: Co-founder / Iterative.ly
     description: |
-      Speaker to be announced soon
-  # - from: "5:20pm"
-  #   startDate: 2018-11-30T17:20
-  #   to: "5:45pm"
-  #   endDate: 2018-11-30T17:45
-  #   name: Patrick Thompson
-  #   img: patrick-thompson.jpg # TODO
-  #   role: TODO / TODO
-  #   description: |
-  #     TODO
+      **Build realistic prototypes, how to design with code and real data**
+
+      Prototyping is a crucial step in the design process and yet practically nowhere to be found. We shouldn’t be surprised! The medium of choice by the vast
+      majority of designers — Sketch, Figma, Invision — are terrible at building realistic, meaningful prototypes. What could go wrong when we try to validate
+      our designs with illusions?
+
+      The future doesn’t have to be like this. Standardization on component-based frameworks like React, growing adoption of design systems, technologies like
+      GraphQL, and a slew of innovative, designer-focused tools that tie everything together, building realistic prototyping is finally within reach. Designers
+      who make the leap into this world will find themselves empowered to create prototypes as an essential part of the design process.
+
+      In this talk, we’ll dive deeper into the current state of prototyping and how tools are evolving to allow designers to prototype with code and real data!
 
   - from: "5:45pm"
     startDate: 2018-11-30T17:45
