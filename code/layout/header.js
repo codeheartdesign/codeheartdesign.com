@@ -8,7 +8,7 @@ import React from 'react';
 const Header = ({ _relativeURL, _ID }) => (
 	<header className="row" role="banner" id="top">
 		<meta itemProp="url" content="https://codeheartdesign.com/"/>
-		<meta itemProp="image" content="https://codeheartdesign.com/assets/img/og-image.jpg"/>
+		<meta itemProp="image" content="https://codeheartdesign.com/assets/img/og-image.jpg?v2"/>
 		<div itemProp="performer" itemScope itemType="http://schema.org/Person">
 			<meta itemProp="name" content="Dominik Wilkowski, Alex Skougarevskaya, Jess Telford, Alex Leon"/>
 		</div>
