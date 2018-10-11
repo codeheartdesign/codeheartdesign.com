@@ -170,7 +170,7 @@ footer.wrapper {
 	position: absolute;
 	right: 216px;
 	top: 12px;
-	width: 999999px;
+	width: 75rem;
 	border-top: 6px solid var(--border);
 	z-index: 1;
 }

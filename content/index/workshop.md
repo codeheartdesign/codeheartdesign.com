@@ -26,6 +26,6 @@ from a place of understanding.
 
 **Target audience:** Developers and designers
 
-**Time:** On the first half day of the conference
+**Time:** On the morning of the conference
 
 **Location:** Sydney CBD
