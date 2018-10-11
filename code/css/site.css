@@ -141,7 +141,7 @@ footer.wrapper,
 /* ====================== FOOTER ====================== */
 footer.wrapper {
 	text-align: center;
-	margin-top: 2rem;
+	margin-top: 4rem;
 	color: var(--border);
 }
 .footer-logo-wrapper {
@@ -190,7 +190,7 @@ footer.wrapper {
 	margin: 0;
 }
 .heart-gem {
-	margin: 30rem 0 10rem 0;
+	margin: 60rem 0 10rem 0;
 	display: inline-block;
 	width: 15rem;
 	height: 15rem;
@@ -408,7 +408,7 @@ a.btn--disabled,
 	position: relative;
 }
 .schedule-img img {
-	width: 186px;
+	width: 146px;
 	border-radius: 6px;
 	max-width: 100%;
 }
@@ -475,6 +475,11 @@ a.btn--disabled,
 	}
 	.schedule-details {
 		grid-column: col-start 3 / -1;
+	}
+}
+@media (min-width: 480px) {
+	.schedule-img img {
+		width: 186px;
 	}
 }
 
