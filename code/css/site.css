@@ -60,10 +60,12 @@ footer.wrapper,
 	left: 0;
 	right: 0;
 	z-index: -1;
+	height: 100%;
 }
 .col {
 	top: 0;
 	bottom: 0;
+	height: 100%;
 	background: var(--bg-1);
 }
 .row,
@@ -349,6 +351,7 @@ a.btn--disabled,
 	color: var(--fg);
 	cursor: not-allowed;
 	text-decoration: none;
+	text-decoration: line-through;
 }
 
 /* ====================== GOLDSPONSORS ====================== */

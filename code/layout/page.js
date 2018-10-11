@@ -30,18 +30,18 @@ const Page = ({
 
 			<body className={ _ID } itemScope itemType="http://schema.org/Event">
 				<div className="grid gridgap">
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
-					<div className="col"></div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
+					<div className="col">&nbsp;</div>
 				</div>
 
 				{ header }
