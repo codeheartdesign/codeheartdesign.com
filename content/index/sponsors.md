@@ -14,6 +14,9 @@ gold:
     svg: ansarada
     url: https://www.ansarada.com/
     blurb: |
+      Ansarada is a founder-led, fast-growth global technology company on a mission to raise and protect potential.
+      Our team has a singular vision and a passion for what we do – design and engineer powerful but simple software that gives our clients complete confidence
+      during their most important transactions.
   - name: Lendi
     svg: lendi
     url: https://www.lendi.com.au/
@@ -26,6 +29,11 @@ gold:
     svg: pwc
     url: https://www.pwc.com.au/
     blurb: |
+      PwC is one of Australia's leading professional services firms, bringing the power of our global network of firms to help Australian businesses,
+      not-for-profit organisations and governments assess their performance and improve the way they work.
+      From improving the structure of the Australian health system, to performing due diligence on some of Australia's largest deals, and working side-by-side
+      with entrepreneurs and high-net-worth individuals, our teams bring a unique combination of knowledge and passion to address the challenges and
+      opportunities that face our community.
 silver:
   - name: Interplay
     svg: interplay
