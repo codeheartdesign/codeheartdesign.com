@@ -1,20 +1,37 @@
 {
-	"name": "codeheartdesign",
-	"private": true,
-	"version": "1.0.0",
-	"author": "Jess Telford <jess+github@jes.st>",
-	"license": "MIT",
 	"scripts": {
-		"build:sass": "node-sass assets/sass --output docs/assets/css",
-		"build:css-min": "csso docs/assets/css/main.css docs/assets/css/main.min.css",
-		"build:css-prefix": "postcss docs/assets/css/main.min.css --use autoprefixer -r",
-		"build": "yarn build:sass && yarn build:css-min && yarn build:css-prefix"
+		"build:sitecss": "postcss code/css/site.css --output code/assets/css/site.min.css --no-map",
+		"build:headcss": "postcss code/css/head.css --output code/css/head.min.css --no-map",
+		"build:css": "npm run build:sitecss && npm run build:headcss",
+		"build:site": "cuttlebelle",
+		"build:pages": "npm run build:site",
+		"build:favicons": "mv docs/assets/favicons/* docs/ && rm -r docs/assets/favicons",
+		"build": "npm run build:css && npm run build:pages && npm run build:favicons",
+		"watch:sitecss": "onchange 'code/css/site.css' -- npm run build:sitecss",
+		"watch:headcss": "onchange 'code/css/head.css' -- npm run build:headcss",
+		"watch:site": "onchange 'code/**' 'content/**' -- npm run build:pages",
+		"watch": "npm run build && npm run watch:sitecss | npm run watch:headcss | npm run watch:site | npm run server",
+		"server": "browser-sync start --server 'docs' --files 'docs'"
+	},
+	"dependencies": {},
+	"cuttlebelle": {
+		"folder": {
+			"code": "code/layout",
+			"assets": "code/assets",
+			"site": "docs",
+			"docs": "docs/docs"
+		},
+		"site": {
+			"markdownRenderer": "code/markdown/index.js"
+		}
 	},
 	"devDependencies": {
-		"autoprefixer": "^9.1.0",
-		"csso-cli": "^1.1.0",
-		"node-sass": "^4.9.2",
+		"autoprefixer": "^9.1.2",
+		"browser-sync": "^2.24.7",
+		"cuttlebelle": "^1.0.0-alpha.56",
+		"cssnano": "^4.0.5",
+		"moment": "^2.22.2",
+		"onchange": "^4.1.0",
 		"postcss-cli": "^6.0.0"
-	},
-	"dependencies": {}
+	}
 }
