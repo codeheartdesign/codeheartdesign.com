@@ -3,15 +3,21 @@ layout: homepage/schedule
 headline: Schedule
 schedule:
   - from: "12:00pm"
+    startDate: 2018-11-30T12:00
     to: "12:30pm"
+    endDate: 2018-11-30T14:30
     title: Doors open
   - from: "12:45pm"
+    startDate: 2018-11-30T12:45
     to: "1:00pm"
+    endDate: 2018-11-30T13:00
     title: Welcome
 
   # Below to be toggled for go live
   - from: "1:00pm"
+    startDate: 2018-11-30T13:00
     to: "1:45pm"
+    endDate: 2018-11-30T13:45
     name: To be announced
     keynote: true
     img: unknown.jpg
@@ -19,7 +25,9 @@ schedule:
     description: |
       Keynote speaker will be announced shortly
   # - from: "1:00pm"
+  #   startDate: 2018-11-30T13:00
   #   to: "1:45pm"
+  #   endDate: 2018-11-30T13:45
   #   keynote: true
   #   name: Sharon Steed
   #   img: sharon-steed.jpg
@@ -43,7 +51,9 @@ schedule:
   #     Sharon explains what empathy is (and what it isn’t) and gives you the tools you need to create a culture of empathy on your team.
 
   - from: "1:50pm"
+    startDate: 2018-11-30T13:50
     to: "2:00pm"
+    endDate: 2018-11-30T14:00
     name: Patrick De Young
     img: patrick-deyoung.jpg
     role: Sr Product Manager / Domain
@@ -60,7 +70,9 @@ schedule:
       Listen in as I share my experience as a product manager, conveniently distilled into 10 rules for delivering a successful product.
 
   - from: "2:05pm"
+    startDate: 2018-11-30T14:05
     to: "2:25pm"
+    endDate: 2018-11-30T14:25
     name: Isabel Brison
     img: isabel-brison.jpg
     role: Front end engineer / Fairfax Media
@@ -76,19 +88,25 @@ schedule:
       share a few tips on how to avoid pitfalls and build a clean, scalable codebase, all while staying on speaking terms with the design team.
 
   - from: "2:25pm"
+    startDate: 2018-11-30T14:25
     to: "2:50pm"
+    endDate: 2018-11-30T14:50
     title: Break and shout outs
 
   # Below to be toggled for go live
   - from: "2:55pm"
+    startDate: 2018-11-30T14:55
     to: "3:25pm"
+    endDate: 2018-11-30T15:25
     name: To be announced
     img: unknown.jpg
     role: Role / Company
     description: |
       Speaker to be announced soon
   # - from: "2:55pm"
+  #   startDate: 2018-11-30T14:55
   #   to: "3:25pm"
+  #   endDate: 2018-11-30T15:25
   #   name: Jed Watson
   #   img: jed-watson.jpg
   #   role: Co-Founder / Thinkmill
@@ -103,14 +121,18 @@ schedule:
 
   # Below to be toggled for go live
   - from: "3:30pm"
+    startDate: 2018-11-30T15:30
     to: "4:00pm"
+    endDate: 2018-11-30T16:00
     name: To be announced
     img: unknown.jpg
     role: Role / Company
     description: |
       Speaker to be announced soon
   # - from: "3:30pm"
+  #   startDate: 2018-11-30T15:30
   #   to: "4:00pm"
+  #   endDate: 2018-11-30T16:00
   #   name: Russ Weakley
   #   img: russ-weakley.jpg
   #   role: Design System Principal / IAG
@@ -125,19 +147,25 @@ schedule:
   #     He is the producer and presenter of 12 video courses on CSS and Responsive Web Design and is passionate about accessibility and web standards.
 
   - from: "4:00pm"
+    startDate: 2018-11-30T16:00
     to: "4:30pm"
+    endDate: 2018-11-30T16:30
     title: Gelato / coffee break and shout outs
   
   # Below to be toggled for go live
   - from: "4:30pm"
+    startDate: 2018-11-30T16:30
     to: "5:15pm"
+    endDate: 2018-11-30T17:15
     name: To be announced
     img: unknown.jpg
     role: Role / Company
     description: |
       Speaker to be announced soon
   # - from: "4:30pm"
+  #   startDate: 2018-11-30T16:30
   #   to: "5:15pm"
+  #   endDate: 2018-11-30T17:15
   #   name: Mark Dalgleish
   #   img: mark-dalgleish.jpg
   #   role: Front End Engineering Lead / SEEK
@@ -151,14 +179,18 @@ schedule:
   #     how it all works, and show how you can start experimenting with this technique yourself.
 
   - from: "5:20pm"
+    startDate: 2018-11-30T17:20
     to: "5:45pm"
+    endDate: 2018-11-30T17:45
     name: To be announced
     img: unknown.jpg
     role: Role / Company
     description: |
       Speaker to be announced soon
   # - from: "5:20pm"
+  #   startDate: 2018-11-30T17:20
   #   to: "5:45pm"
+  #   endDate: 2018-11-30T17:45
   #   name: Patrick Thompson
   #   img: patrick-thompson.jpg # TODO
   #   role: TODO / TODO
@@ -166,24 +198,32 @@ schedule:
   #     TODO
 
   - from: "5:45pm"
+    startDate: 2018-11-30T17:45
     to: "6:40pm"
+    endDate: 2018-11-30T18:40
     title: Dinner and Shout outs
 
   - from: "6:40pm"
+    startDate: 2018-11-30T18:40
     to: "7:10pm"
+    endDate: 2018-11-30T19
     name: To be announced
     img: unknown.jpg
     role: Role / Company
     description: |
       Speaker to be announced soon
   # - from: "6:40pm"
+  #   startDate: 2018-11-30T18:40
   #   to: "7:10pm"
+  #   endDate: 2018-11-30T19:10
   #   name: Allard van Helbergen and Raja Bellebon
   #   img: allard-van-helbergen-raja-bellebon.jpg # TODO
   #   role: TODO / TODO
   #   description: |
   #     TODO
   - from: "7:15pm"
+    startDate: 2018-11-30T19:15
     to: "8:00pm"
+    endDate: 2018-11-30T20:00
     title: Panel discussion
 ---

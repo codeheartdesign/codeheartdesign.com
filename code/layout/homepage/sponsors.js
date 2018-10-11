@@ -9,15 +9,19 @@ import PropTypes from 'prop-types';
 const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _relativeURL, _ID, _parseMD, _self }) => {
 
 	const Sponsor = ( { name, url, svg, blurb }, i ) => (
-		<li className="row-h content gridgap sponsortier-item" key={ i }>
+		<li className="row-h content gridgap sponsortier-item" key={ i } itemProp="sponsor" itemType="http://schema.org/Organization">
+			<meta itemProp="name" content={ name }/>
 			<div className="sponsortier-logo">
-				<a href={ url } target="_blank" rel="noopener noreferrer">
+				<a href={ url } target="_blank" rel="noopener noreferrer" itemProp="url">
 					<svg role="img" title={ name }>
 						<use xlinkHref={ SVGSprite( svg, _relativeURL, _ID ) }/>
 					</svg>
 				</a>
 			</div>
-			<div className="sponsortier-blurb">{ _parseMD( blurb ) }</div>
+			<div className="sponsortier-blurb">
+				{ _parseMD( blurb ) }
+				<p><a href={ url } target="_blank" rel="noopener noreferrer">{ url }</a></p>
+			</div>
 		</li>
 	);
 

@@ -25,3 +25,7 @@ from a place of understanding.
 **Primary focus:** Communication skills
 
 **Target audience:** Developers and designers
+
+**Time:** On the first half day of the conference
+
+**Location:** Sydney CBD

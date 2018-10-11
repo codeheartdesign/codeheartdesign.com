@@ -7,8 +7,14 @@ import React from 'react';
  */
 const Header = ({ _relativeURL, _ID }) => (
 	<header className="row" role="banner" id="top">
+		<meta itemProp="url" content="https://codeheartdesign.com/"/>
+		<meta itemProp="image" content="https://codeheartdesign.com/assets/img/og-image.jpg"/>
+		<div itemProp="performer" itemScope itemType="http://schema.org/Person">
+			<meta itemProp="name" content="Dominik Wilkowski, Alex Skougarevskaya, Jess Telford, Alex Leon"/>
+		</div>
 		<a className="logo" href={ _relativeURL( '/', _ID ) }>
 			<h1>
+				<meta itemProp="name" content="Code Heart Design"/>
 				<svg className="heart" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 392 60">
 					<title>Code Heart Design</title>
 					<g fill="none" fillRule="evenodd">

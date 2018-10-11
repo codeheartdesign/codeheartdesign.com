@@ -14,7 +14,6 @@ gold:
     svg: ansarada
     url: https://www.ansarada.com/
     blurb: |
-      TODO
   - name: Lendi
     svg: lendi
     url: https://www.lendi.com.au/
@@ -27,7 +26,6 @@ gold:
     svg: pwc
     url: https://www.pwc.com.au/
     blurb: |
-      TODO
 silver:
   - name: Interplay
     svg: interplay
@@ -41,13 +39,11 @@ bronze:
     svg: invision
     url: https://www.invisionapp.com/
     blurb: |
-      TODO
 community:
   - name: Expert360
     svg: expert360
     url: https://expert360.com/
     blurb: |
-      TODO
   - name: Lookahead
     svg: lookahead
     url: https://www.lookahead.com.au/

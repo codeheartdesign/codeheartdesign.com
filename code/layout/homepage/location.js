@@ -8,8 +8,8 @@ import PropTypes from 'prop-types';
 const Tickets = ({ headline, map, _body, _self }) => (
 	<Fragment>
 		<h3 className="row-h contentHeadline" id={ _self.split('/').slice(-1).join('').replace('.md', '') } tabIndex="0">{ headline }</h3>
+		<div className="row-h">{ _body }</div>
 		<iframe className="row-h content location-map" src={ map } width="100%" height="100%" frameBorder="0" allowFullScreen></iframe>
-		<div className="row-h content">{ _body }</div>
 	</Fragment>
 );
 

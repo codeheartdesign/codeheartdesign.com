@@ -11,12 +11,12 @@ const Organisers = ({ headline, organisers, _self, _relativeURL, _ID, _parseMD }
 		<ul className="row-h organiser gridgap">
 			{
 				organisers.map( ( organiser, i ) =>
-					<li key={ i } className="organiser-item gridgap">
+					<li key={ i } className="organiser-item gridgap" itemProp="organizer" itemScope itemType="http://schema.org/Person">
 						<img className="organiser-img" src={ _relativeURL( `/assets/img/${ organiser.img }`, _ID ) } alt={ organiser.name }/>
 						<div className="organiser-details">
-							<p className="organiser-name">{ organiser.name }</p>
+							<p className="organiser-name" itemProp="name">{ organiser.name }</p>
 							<div className="organiser-company">{ _parseMD( organiser.company ) }</div>
-							<div className="organiser-blurb">{ _parseMD( organiser.blurb ) }</div>
+							<div className="organiser-blurb" itemProp="disambiguatingDescription">{ _parseMD( organiser.blurb ) }</div>
 						</div>
 					</li>
 				)

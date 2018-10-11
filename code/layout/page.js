@@ -28,7 +28,7 @@ const Page = ({
 		<html>
 			<Head _ID={ _ID } _relativeURL={ _relativeURL } pagetitle={ pagetitle }/>
 
-			<body className={ _ID }>
+			<body className={ _ID } itemScope itemType="http://schema.org/Event">
 				<div className="grid gridgap">
 					<div className="col"></div>
 					<div className="col"></div>
