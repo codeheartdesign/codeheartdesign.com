@@ -9,7 +9,7 @@ logos:
     img: IDX.png
     link: https://ncie.org.au/community-programs/idx/
 button:
-  title: Donate yourself now
+  title: Make a voluntary donation now
   link: http://www.givenow.com.au/ncie
 ---
 
