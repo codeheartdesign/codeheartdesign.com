@@ -407,6 +407,9 @@ a.btn--disabled,
 .schedule-img {
 	position: relative;
 }
+.schedule-img-wrapper {
+	position: relative;
+}
 .schedule-img img {
 	width: 146px;
 	border-radius: 6px;
@@ -418,7 +421,7 @@ a.btn--disabled,
 }
 .schedule-keynote {
 	position: absolute;
-	bottom: 1rem;
+	bottom: 2rem;
 	left: 0;
 	display: block;
 	font-weight: bold;

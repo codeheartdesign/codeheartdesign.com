@@ -30,8 +30,10 @@ const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) =>
 							{ item.title && <span className="schedule-title" itemProp="name">{ item.title }</span> }
 							{ item.img &&
 								<div className="schedule-img">
-									<img itemProp="image" src={ _relativeURL(`/assets/img/${ item.img }`, _ID) } alt={ item.name } />
-									{ item.keynote ? <span className="schedule-keynote">Keynote</span> : null }
+									<div className="schedule-img-wrapper">
+										<img itemProp="image" src={ _relativeURL(`/assets/img/${ item.img }`, _ID) } alt={ item.name } />
+										{ item.keynote ? <span className="schedule-keynote">Keynote</span> : null }
+									</div>
 								</div>
 							}
 							{ item.name &&
