@@ -11,7 +11,7 @@ const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) =>
 		<ul className="row list">
 			{
 				schedule.map( ( item, i ) =>
-					<li className="content gridgap schedule-item" key={ i } itemProp="subEvent" itemScope itemType="http://schema.org/Event">
+					<li id={ item.name ? item.name.toLowerCase().replace(/ /g, '-') : null } className="content gridgap schedule-item" key={ i } itemProp="subEvent" itemScope itemType="http://schema.org/Event">
 						<meta itemProp="url" content="https://codeheartdesign.com/"/>
 						<meta itemProp="startDate" content={ item.startDate }/>
 						<meta itemProp="endDate" content={ item.endDate }/>
