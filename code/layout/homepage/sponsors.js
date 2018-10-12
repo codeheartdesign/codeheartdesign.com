@@ -13,7 +13,8 @@ const Sponsors = ({ headline, gold, silver, bronze, community, organizers, _rela
 			<meta itemProp="name" content={ name }/>
 			<div className="sponsortier-logo">
 				<a href={ url } target="_blank" rel="noopener noreferrer" itemProp="url">
-					<svg role="img" title={ name }>
+					<svg role="img">
+						<title>{ name }</title>
 						<use xlinkHref={ SVGSprite( svg, _relativeURL, _ID ) }/>
 					</svg>
 				</a>
