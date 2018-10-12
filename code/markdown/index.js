@@ -19,7 +19,7 @@ module.exports = exports = function renderer({ Marked, _ID, _relativeURL }) {
 		else if( href.startsWith('#') ) {
 			attr = 'class="js-scroll"';
 		}
-		else if( !href.startsWith('#') && typeof _relativeURL === 'function' ) {
+		else if( !href.startsWith('#') && !href.startsWith('mailto:') && typeof _relativeURL === 'function' ) {
 			href = _relativeURL( href, _ID );
 		}
 
