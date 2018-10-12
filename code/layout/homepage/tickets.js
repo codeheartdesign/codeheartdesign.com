@@ -25,7 +25,7 @@ const Tickets = ({ headline, tickets, _parseMD, _self }) => (
 							{
 								ticket.disabled
 									? <Fragment>
-											<span className="btn btn--disabled">{ ticket.btn } &ndash; { ticket.price }</span>
+											<span className="btn btn--disabled">{ ticket.btn }</span>
 											<span className="muted">{ ticket.disabled }</span>
 										</Fragment>
 									: <tito-button class="tito-wrapper" event="code-heart-design/2018" releases={ ticket.type }>
