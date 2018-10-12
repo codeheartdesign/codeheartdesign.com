@@ -19,12 +19,9 @@ gold:
       during their most important transactions.
   - name: Lendi
     svg: lendi
-    url: https://www.lendi.com.au/
+    url: https://www.lendi.com.au/careers/
     blurb: |
-      Lendi is Australia’s number one home loan platform, bringing together technology and home loan specialist advice to help Australians search, choose and
-      settle their home loans online.
-      The platform uses smart technology to search more than 2,500 loan products from 37 lenders and provide a shortlist of options suited to the individual’s
-      circumstances.
+      Lendi combines specialist advice with smart technology to help Australians compare, apply and secure their home loans - all online and in their own time.
   - name: PWC
     svg: pwc
     url: https://www.pwc.com.au/
