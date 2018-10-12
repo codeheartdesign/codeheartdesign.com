@@ -4,7 +4,7 @@ headline: Tickets
 tickets:
   - headline: Early bird tickets
     subline: |
-      Secure your ticket as an early bird attendee.
+      Secure your ticket at the cheapest price as an early bird attendee.
     btn: Buy now
     price: $10
     type: vi-bo8k4fu
@@ -13,9 +13,11 @@ tickets:
   - headline: Conference tickets
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
-    disabled: Available from 29th Oct
-    btn: Buy now
+    # btn: Buy now
+    btn: Available Oct 29*
     price: $15
+    # disabled: Available 15th Oct 10am
+    disabled: "* Price TBA"
     type: vfapvxmqvug
     validfrom: 2018-10-29T10:00
     validto: 2018-11-30T12:00
