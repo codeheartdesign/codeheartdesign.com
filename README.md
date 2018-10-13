@@ -41,8 +41,6 @@ Licensed under [GNU-GPLv3](https://raw.githubusercontent.com/https://github.com/
 **[⬆ back to top](#contents)**
 
 
-<div align="center">
 _From the people who brought you [React Sydney](https://www.meetup.com/React-Sydney/) and [Design System Meetup Sydney](http://designsystemmeetup.com/)._
-</div>
 
 # };
