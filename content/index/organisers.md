@@ -8,7 +8,7 @@ organisers:
       Design Manager for Atlassian Design System / [Atlassian](https://atlassian.design)
     blurb: |
       Organiser of [Design System Meetup](https://designsystemmeetup.com)
-  - name: Dominik Wilowski
+  - name: Dominik Wilkowski
     img: dominik-wilowski.jpg
     company: |
       Team Lead / [Thinkmill](https://www.thinkmill.com.au)
