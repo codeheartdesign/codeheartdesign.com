@@ -2,11 +2,12 @@
 layout: homepage/tickets
 headline: Tickets
 tickets:
-  - headline: Early bird tickets
+  - headline: Early bird tickets - sold out
     subline: |
       Secure your ticket at the cheapest price as an early bird attendee.
-    btn: Buy now
+    btn: Sold out
     price: $10
+    disabled: More Oct 29 👇
     type: vi-bo8k4fu
     validfrom: 2018-10-15T10:00
     validto: 2018-10-28T12:00
