@@ -52,6 +52,11 @@ community:
     svg: expert360
     url: https://expert360.com/
     blurb: |
+      Expert360 is APAC’s leading marketplace and freelance management platform powering the freelance economy.
+      The platform enables top industry experts, consultants, contractors to easily connect with APAC’s largest businesses to perform high quality, project
+      orientated work.
+      Expert360’s platform allows enterprise to respond quickly to the resource demands of the business while streamlining the source-to-pay freelance
+      management lifecycle at scale.
   - name: Lookahead
     svg: lookahead
     url: https://www.lookahead.com.au/
