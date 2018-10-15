@@ -207,21 +207,25 @@ schedule:
   - from: "6:40pm"
     startDate: 2018-11-30T18:40
     to: "7:10pm"
-    endDate: 2018-11-30T19
-    name: To be announced
-    img: unknown.jpg
-    role: Role / Company
+    endDate: 2018-11-30T19:10
+    name: Allard van Helbergen - Raja Bellebon
+    img: allard-van-helbergen-raja-bellebon.jpg
+    role: Senior Designer / Atlassian - SDET Engineer / Atlassian
     description: |
-      Speaker to be announced soon
-  # - from: "6:40pm"
-  #   startDate: 2018-11-30T18:40
-  #   to: "7:10pm"
-  #   endDate: 2018-11-30T19:10
-  #   name: Allard van Helbergen and Raja Bellebon
-  #   img: allard-van-helbergen-raja-bellebon.jpg # TODO
-  #   role: TODO / TODO
-  #   description: |
-  #     TODO
+      **The ‘devsigner’ of the future**
+
+      Designers expect developers to understand UX and developers expect designers to understand the technicalities of their platform.
+      The back and forth of this is embodied by the dreaded hand-off.
+
+      Current tooling already makes the hand-off simpler and quicker.
+      But, it also requires one role to know more about the other.
+      Are the roles slowly fusing into a new one, ‘the devsigner’?
+
+      Allard an Raja will take you on a journey in their quest to eradicate the hand-off.
+      What would a hand-off look like if there wasn’t one?
+      What if a designer could influence production code?
+      What if a developer could iterate the way a designer does? Is the future really that far away?
+
   - from: "7:15pm"
     startDate: 2018-11-30T19:15
     to: "8:00pm"
