@@ -13,42 +13,31 @@ schedule:
     endDate: 2018-11-30T13:00
     title: Welcome
 
-  # Below to be toggled for go live
   - from: "1:00pm"
     startDate: 2018-11-30T13:00
     to: "1:45pm"
     endDate: 2018-11-30T13:45
-    name: To be announced
     keynote: true
-    img: unknown.jpg
-    role: Role / Company
+    name: Sharon Steed
+    img: sharon-steed.jpg
+    role: Principal / Communilogue
     description: |
-      Keynote speaker will be announced shortly
-  # - from: "1:00pm"
-  #   startDate: 2018-11-30T13:00
-  #   to: "1:45pm"
-  #   endDate: 2018-11-30T13:45
-  #   keynote: true
-  #   name: Sharon Steed
-  #   img: sharon-steed.jpg
-  #   role: Principal / Communilogue
-  #   description: |
-  #     **Creating Cultures of Empathy**
+      **Creating Cultures of Empathy**
 
-  #     The most successful endeavors all follow the same general trajectory:
-  #     a decent idea executed flawlessly by a cohesive team of hard workers.
-  #     No matter the project, everything can be achieved following this general guideline.
-  #     But the exact thing that can create global companies, solve impossible problems, and bring ideas to life is also the same reason why so many companies
-  #     fail.
-  #     That thing is us.
-  #     People.
-  #     But when we’re at our best, there isn’t anything we can’t do.
-  #     So how do we optimize collaboration? How do we work better together even if we don’t see eye to eye with everyone on our teams? And how do we create a
-  #     culture of empathy when all we can see about everyone around us is our differences?
+      The most successful endeavors all follow the same general trajectory:
+      a decent idea executed flawlessly by a cohesive team of hard workers.
+      No matter the project, everything can be achieved following this general guideline.
+      But the exact thing that can create global companies, solve impossible problems, and bring ideas to life is also the same reason why so many companies
+      fail.
+      That thing is us.
+      People.
+      But when we’re at our best, there isn’t anything we can’t do.
+      So how do we optimize collaboration? How do we work better together even if we don’t see eye to eye with everyone on our teams? And how do we create a
+      culture of empathy when all we can see about everyone around us is our differences?
 
-  #     Sharon Steed explores empathy in an unusual way:
-  #     from the perspective of a stutterer.
-  #     Sharon explains what empathy is (and what it isn’t) and gives you the tools you need to create a culture of empathy on your team.
+      Sharon Steed explores empathy in an unusual way:
+      from the perspective of a stutterer.
+      Sharon explains what empathy is (and what it isn’t) and gives you the tools you need to create a culture of empathy on your team.
 
   - from: "1:50pm"
     startDate: 2018-11-30T13:50
