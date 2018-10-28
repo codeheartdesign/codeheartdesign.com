@@ -140,32 +140,22 @@ schedule:
     to: "4:30pm"
     endDate: 2018-11-30T16:30
     title: Gelato / coffee break and shout outs
-  
-  # Below to be toggled for go live
+
   - from: "4:30pm"
     startDate: 2018-11-30T16:30
     to: "5:15pm"
     endDate: 2018-11-30T17:15
-    name: To be announced
-    img: unknown.jpg
-    role: Role / Company
+    name: Mark Dalgleish
+    img: mark-dalgleish.jpg
+    role: Front End Engineering Lead / SEEK
     description: |
-      Speaker to be announced soon
-  # - from: "4:30pm"
-  #   startDate: 2018-11-30T16:30
-  #   to: "5:15pm"
-  #   endDate: 2018-11-30T17:15
-  #   name: Mark Dalgleish
-  #   img: mark-dalgleish.jpg
-  #   role: Front End Engineering Lead / SEEK
-  #   description: |
-  #     **Sketching in the Browser**
+      **Sketching in the Browser**
 
-  #     Keeping developers and designers in sync is an ongoing challenge for our industry.
-  #     To tackle this problem, we're beginning to see the emergence of a new breed of code-powered design tooling, providing a true feedback loop from
-  #     development back into design.
-  #     In this talk, we'll run through a real-world example of how we generated a shared Sketch library from our React-based design system, have a closer look at
-  #     how it all works, and show how you can start experimenting with this technique yourself.
+      Keeping developers and designers in sync is an ongoing challenge for our industry.
+      To tackle this problem, we're beginning to see the emergence of a new breed of code-powered design tooling, providing a true feedback loop from
+      development back into design.
+      In this talk, we'll run through a real-world example of how we generated a shared Sketch library from our React-based design system, have a closer look at
+      how it all works, and show how you can start experimenting with this technique yourself.
 
   - from: "5:20pm"
     startDate: 2018-11-30T17:20
