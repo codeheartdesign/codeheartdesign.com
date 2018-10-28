@@ -7,7 +7,7 @@ tickets:
       Secure your ticket at the cheapest price as an early bird attendee.
     btn: Sold out
     price: $10
-    disabled: More Oct 29 👇
+    disabled: Sold out in 9 min 🎉
     type: vi-bo8k4fu
     validfrom: 2018-10-15T10:00
     validto: 2018-10-28T12:00
@@ -15,10 +15,8 @@ tickets:
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
     # btn: Buy now
-    btn: Available Oct 29*
+    btn: Buy now
     price: $15
-    # disabled: Available 15th Oct 10am
-    disabled: "* Price TBA"
     type: vfapvxmqvug
     validfrom: 2018-10-29T10:00
     validto: 2018-11-30T12:00
