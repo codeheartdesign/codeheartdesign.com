@@ -24,7 +24,7 @@ tickets:
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
     btn: Sold out
-    disabled: More Nov 5th 👇
+    disabled: More Nov 5th 👆
     price: $15
     type: vfapvxmqvug
     validfrom: 2018-10-29T10:00
