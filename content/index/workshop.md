@@ -26,6 +26,8 @@ from a place of understanding.
 
 **Target audience:** Developers and designers
 
-**Time:** On the morning of the conference
+**Time:** 8.30 for a 9am start Nov 30th, on the morning of the conference
 
-**Location:** Sydney CBD
+**Location:** Atlassian, Level 6, 341 George St, Sydney CBD
+
+_Lunch and soft drinks provided_
