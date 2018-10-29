@@ -11,24 +11,24 @@ tickets:
     type: vi-bo8k4fu
     validfrom: 2018-10-15T10:00
     validto: 2018-10-28T12:00
-  - headline: Conference tickets
+  - headline: Conference tickets - sold out
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
-    # btn: Buy now
-    btn: Buy now
+    btn: Sold out
+    disabled: More Nov 5th 👇
     price: $15
     type: vfapvxmqvug
     validfrom: 2018-10-29T10:00
     validto: 2018-11-30T12:00
-  # - headline: Second batch conference tickets
-  #   subline: |
-  #     Swoop up the last batch of tickets before we are cold out.
-  #   btn: Buy now – $15
-  #   price: $15
-  #   disabled: Available from 12th Nov
-  #   type: vhqguer9b7s
-  #   validfrom: 2018-11-12T10:00
-  #   validto: 2018-11-30T12:00
+  - headline: Final batch conference tickets
+    subline: |
+      Swoop up the last batch of tickets before we are sold out.
+    btn: Buy now
+    price: $15
+    disabled: Available 5th Nov 10am
+    type: vhqguer9b7s
+    validfrom: 2018-11-12T10:00
+    validto: 2018-11-30T12:00
   - headline: Workshop ticket
     subline: |
       Attend Sharon's workshop in the morning of the conference.
