@@ -98,32 +98,22 @@ schedule:
       So as we boldly put our CSS in our JS and step into the component age, let’s take a look at some other lessons we can learn from the design language of
       the web.
 
-  # Below to be toggled for go live
   - from: "3:30pm"
     startDate: 2018-11-30T15:30
     to: "4:00pm"
     endDate: 2018-11-30T16:00
-    name: To be announced
-    img: unknown.jpg
-    role: Role / Company
+    name: Russ Weakley
+    img: russ-weakley.jpg
+    role: Design System Principal / IAG
     description: |
-      Speaker to be announced soon
-  # - from: "3:30pm"
-  #   startDate: 2018-11-30T15:30
-  #   to: "4:00pm"
-  #   endDate: 2018-11-30T16:00
-  #   name: Russ Weakley
-  #   img: russ-weakley.jpg
-  #   role: Design System Principal / IAG
-  #   description: |
-  #     **Accessibility in Design systems - the pain and glory**
+      **Accessibility in Design systems - the pain and glory**
 
-  #     Building a design system is a painful enough, but how do you add accessibility into the mix?
-  #     Is it an "up-at-dawn, pride-swallowing siege", or can it become part of the normal work flow.
-  #     We'll look at accessibility for different roles - such as UX, UI and devs, as well as where accessibility should be injected into the process.
+      Building a design system is a painful enough, but how do you add accessibility into the mix?
+      Is it an "up-at-dawn, pride-swallowing siege", or can it become part of the normal work flow.
+      We'll look at accessibility for different roles - such as UX, UI and devs, as well as where accessibility should be injected into the process.
 
-  #     Russ Weakley has worked in the design field for over 20 years as a Design System Architect, User Experience professional, Front-end Developer and trainer.
-  #     He is the producer and presenter of 12 video courses on CSS and Responsive Web Design and is passionate about accessibility and web standards.
+      Russ Weakley has worked in the design field for over 20 years as a Design System Architect, User Experience professional, Front-end Developer and trainer.
+      He is the producer and presenter of 12 video courses on CSS and Responsive Web Design and is passionate about accessibility and web standards.
 
   - from: "4:00pm"
     startDate: 2018-11-30T16:00
