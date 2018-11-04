@@ -82,31 +82,21 @@ schedule:
     endDate: 2018-11-30T14:50
     title: Break and shout outs
 
-  # Below to be toggled for go live
   - from: "2:55pm"
     startDate: 2018-11-30T14:55
     to: "3:25pm"
     endDate: 2018-11-30T15:25
-    name: To be announced
-    img: unknown.jpg
-    role: Role / Company
+    name: Jed Watson
+    img: jed-watson.jpg
+    role: Co-Founder / Thinkmill
     description: |
-      Speaker to be announced soon
-  # - from: "2:55pm"
-  #   startDate: 2018-11-30T14:55
-  #   to: "3:25pm"
-  #   endDate: 2018-11-30T15:25
-  #   name: Jed Watson
-  #   img: jed-watson.jpg
-  #   role: Co-Founder / Thinkmill
-  #   description: |
-  #     It’s wild how much JavaScript has learned from CSS over the years.
-  #     Need to target a DOM element?
-  #     CSS Selectors have you covered!
-  #     Declarative code?
-  #     That was CSS long before it was React.
-  #     So as we boldly put our CSS in our JS and step into the component age, let’s take a look at some other lessons we can learn from the design language of
-  #     the web.
+      It’s wild how much JavaScript has learned from CSS over the years.
+      Need to target a DOM element?
+      CSS Selectors have you covered!
+      Declarative code?
+      That was CSS long before it was React.
+      So as we boldly put our CSS in our JS and step into the component age, let’s take a look at some other lessons we can learn from the design language of
+      the web.
 
   # Below to be toggled for go live
   - from: "3:30pm"
