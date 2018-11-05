@@ -19,7 +19,7 @@ gold:
       during their most important transactions.
   - name: Lendi
     svg: lendi
-    url: https://www.lendi.com.au/careers/
+    url: https://www.lendi.com.au
     blurb: |
       Lendi combines specialist advice with smart technology to help Australians compare, apply and secure their home loans - all online and in their own time.
   - name: PWC
