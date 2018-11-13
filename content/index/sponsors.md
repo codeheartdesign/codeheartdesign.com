@@ -22,6 +22,13 @@ gold:
     url: https://www.lendi.com.au
     blurb: |
       Lendi combines specialist advice with smart technology to help Australians compare, apply and secure their home loans - all online and in their own time.
+  - name: Canva
+    svg: canva
+    url: https://www.canva.com
+    blurb: |
+      Canva is an online design and publishing tool which makes graphic design simple for everyone. Since launching in 2013, Canva has grown to over 10 million
+      users across 190 countries, with more than 850 million designs created, at 20 designs per second. Today Canva is growing from strength the strength, with
+      over 400 team members working together on a mission to empower everyone to create beautiful designs.
   - name: Domain
     svg: domain
     url: https://www.domain.com.au

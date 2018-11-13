@@ -10,6 +10,9 @@ sponsors:
   - svg: lendi
     alt: Lendi Gold Sponsors of Code Heart Design
     url: https://www.lendi.com.au/
+  - svg: canva
+    alt: Canva Gold Sponsors of Code Heart Design
+    url: https://www.canva.com
   - svg: domain
     alt: Domain Gold Sponsors of Code Heart Design
     url: https://www.domain.com.au
