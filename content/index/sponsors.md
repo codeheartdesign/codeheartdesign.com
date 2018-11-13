@@ -22,15 +22,20 @@ gold:
     url: https://www.lendi.com.au
     blurb: |
       Lendi combines specialist advice with smart technology to help Australians compare, apply and secure their home loans - all online and in their own time.
-  - name: PWC
-    svg: pwc
-    url: https://www.pwc.com.au/
+  - name: Canva
+    svg: canva
+    url: https://www.canva.com
     blurb: |
-      PwC is one of Australia's leading professional services firms, bringing the power of our global network of firms to help Australian businesses,
-      not-for-profit organisations and governments assess their performance and improve the way they work.
-      From improving the structure of the Australian health system, to performing due diligence on some of Australia's largest deals, and working side-by-side
-      with entrepreneurs and high-net-worth individuals, our teams bring a unique combination of knowledge and passion to address the challenges and
-      opportunities that face our community.
+      Canva is an online design and publishing tool which makes graphic design simple for everyone. Since launching in 2013, Canva has grown to over 10 million
+      users across 190 countries, with more than 850 million designs created, at 20 designs per second. Today Canva is growing from strength the strength, with
+      over 400 team members working together on a mission to empower everyone to create beautiful designs.
+  - name: Domain
+    svg: domain
+    url: https://www.domain.com.au
+    blurb: |
+      Domain is one of Australia's most recognisable brands, with a mission to ensure that whether you're buying or renting, selling or leasing, or even looking to venture into a new office or business that we're there every step of the way.
+      And our expertise doesn't stop with real estate, Domain is bursting with incredible engineers, designers and product managers; we're as passionate about our craft as you are.
+      We're looking forward to being your hosts!
 silver:
   - name: Interplay
     svg: interplay
