@@ -17,9 +17,9 @@ const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) =>
 						<meta itemProp="endDate" content={ item.endDate }/>
 						<meta itemProp="name" content={ item.name }/>
 						<div itemProp="location" itemScope itemType="http://schema.org/Place">
-							<meta itemProp="name" content="The Experience Center, PWC"/>
+							<meta itemProp="name" content="Domain HQ"/>
 							<div itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
-								<div itemProp="hasMap"><link itemProp="sameAs" itemType="https://schema.org/Map" href="https://schema.org/Map" href="https://maps.google.com/maps?ll=-33.863927,151.201887&amp;z=16&amp;t=m&amp;hl=en-US&amp;gl=AU&amp;mapclient=embed&amp;cid=15086941290643850687"/></div>
+								<div itemProp="hasMap"><link itemProp="sameAs" itemType="https://schema.org/Map" href="https://schema.org/Map" href="http://localhost:3000/#sponsors"/></div>
 							</div>
 						</div>
 						<div className="schedule-time">
