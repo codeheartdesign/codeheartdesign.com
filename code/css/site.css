@@ -351,6 +351,11 @@ a.btn--disabled,
 	color: var(--fg);
 	cursor: not-allowed;
 	text-decoration: none;
+}
+
+.btn--soldout,
+a.btn--soldout,
+.btn.btn--soldout:hover {
 	text-decoration: line-through;
 }
 
