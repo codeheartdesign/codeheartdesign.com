@@ -14,8 +14,9 @@ tickets:
   - headline: Conference tickets
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
-    btn: Only $15!
-    message: ⌛️ Avail. 10am AEDT
+    btn: Sold out!
+    message: All sold out!
+    soldout: true
     disabled: true
     price: $15
     type: vfapvxmqvug
