@@ -15,7 +15,7 @@ const Tickets = ({ headline, tickets, _parseMD, _self }) => (
 						<meta itemProp="validFrom" content={ ticket.validfrom }/>
 						<meta itemProp="validThrough" content={ ticket.validto }/>
 						<meta itemProp="price" content={ ticket.price.replace('$', '') }/>
-						<link itemProp="availability" href={ ticket.disabled ? 'http://schema.org/SoldOut' : 'http://schema.org/InStock' }/>
+						<link itemProp="availability" href={ ticket.soldout ? 'http://schema.org/SoldOut' : 'http://schema.org/InStock' }/>
 						<meta itemProp="priceCurrency" content="AUD"/>
 						<div className="tickets-text">
 							<h4 className="tickets-headline">{ ticket.headline }</h4>
@@ -23,10 +23,10 @@ const Tickets = ({ headline, tickets, _parseMD, _self }) => (
 						</div>
 						<div className="tickets-links">
 							{
-								ticket.disabled
+								ticket.soldout || ticket.disabled
 									? <Fragment>
-											<span className="btn btn--disabled">{ ticket.btn }</span>
-											<span className="muted">{ ticket.disabled }</span>
+											<span className={`btn btn--disabled${ticket.soldout ? ' btn--soldout' : ''}`}>{ ticket.btn }</span>
+											{ticket.message ? <span className="muted">{ ticket.message }</span> : null}
 										</Fragment>
 									: <tito-button class="tito-wrapper" event="code-heart-design/2018" releases={ ticket.type }>
 											<a className="btn" href={`https://ti.to/code-heart-design/2018/with/${ ticket.type }`} target="_blank" rel="noopener noreferrer" itemProp="url">
@@ -77,7 +77,9 @@ Tickets.propTypes = {
 			btn: PropTypes.string.isRequired,
 			price: PropTypes.string.isRequired,
 			type: PropTypes.string.isRequired,
-			disabled: PropTypes.string,
+			disabled: PropTypes.bool,
+			soldout: PropTypes.bool,
+			message: PropTypes.string,
 			validfrom: PropTypes.string.isRequired,
 			validto: PropTypes.string.isRequired,
 		})
