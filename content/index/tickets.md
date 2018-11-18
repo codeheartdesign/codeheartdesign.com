@@ -14,11 +14,9 @@ tickets:
   - headline: Conference tickets
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
-    btn: Only $15!
-    message: ⌛️ Avail. 10am AEDT
-    disabled: true
+    btn: Buy now
     price: $15
-    type: vfapvxmqvug
+    type: 2h4qwmspdno
     validfrom: 2018-11-19T10:00
     validto: 2018-11-30T12:00
 ---
