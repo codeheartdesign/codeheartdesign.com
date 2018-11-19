@@ -45,7 +45,7 @@ const Head = ({ _ID, _relativeURL, pagetitle }) => {
 			<meta name="twitter:image" content="https://codeheartdesign.com/assets/img/og-image.jpg?v3"/>
 			<style dangerouslySetInnerHTML={{ __html: Styles() }} />
 			<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700i" rel="stylesheet"/>
-			<link rel="stylesheet" href={_relativeURL(`/assets/css/site.min.css?v1`, _ID)}/>
+			<link rel="stylesheet" href={_relativeURL(`/assets/css/site.min.css?v2`, _ID)}/>
 		</head>
 	);
 };

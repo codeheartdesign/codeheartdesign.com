@@ -14,7 +14,10 @@ tickets:
   - headline: Conference tickets
     subline: |
       Attend the conference knowing profits are donated to [charity](#charity).
-    btn: Buy now
+    btn: Sold out!
+    message: All sold out!
+    soldout: true
+    disabled: true
     price: $15
     type: 2h4qwmspdno
     validfrom: 2018-11-19T10:00
