@@ -19,7 +19,7 @@ tickets:
     soldout: true
     disabled: true
     price: $15
-    type: vfapvxmqvug
+    type: 2h4qwmspdno
     validfrom: 2018-11-19T10:00
     validto: 2018-11-30T12:00
 ---
