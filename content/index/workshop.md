@@ -9,6 +9,7 @@ abstract: |
 link:
   url: "#tickets"
   name: Get tickets
+video: https://player.vimeo.com/video/302350799
 ---
 
 This half-day workshop explores the principles of empathy that foster the best, most  productive communication in individuals and on tech teams in the
@@ -31,3 +32,5 @@ from a place of understanding.
 **Location:** Atlassian, Level 6, 341 George St, Sydney CBD
 
 _Lunch and soft drinks provided_
+
+[Need to convince your boss?](/assets/CodeHeartDesign-workshop.pdf)

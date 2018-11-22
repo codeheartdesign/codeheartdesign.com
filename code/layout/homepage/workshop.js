@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 /**
  * The Section component
  */
-const Section = ({ headline, banner, name, workshop, abstract, link, _body, _self, _relativeURL, _ID }) => (
+const Section = ({ headline, banner, name, workshop, abstract, link, video, _body, _self, _relativeURL, _ID }) => (
 	<Fragment>
 		<h3 className="row-h contentHeadline" id={ _self.split('/').slice(-1).join('').replace('.md', '') } tabIndex="0">{ headline }</h3>
 		<div className={`row-h workshop content section section-${ headline.toLowerCase().replace(' ', '-') }`}>
@@ -14,6 +14,21 @@ const Section = ({ headline, banner, name, workshop, abstract, link, _body, _sel
 			<h4 className="workshop-workshop">{ workshop }</h4>
 			<div className="workshop-abstract">{ abstract }</div>
 			{ _body }
+
+			<div style={{
+				padding: '56.25% 0 0 0',
+				marginTop: '2rem',
+				position: 'relative',
+			}}>
+				<iframe src={`${ video }?color=FC63B3&byline=0&portrait=0`} style={{
+					position:'absolute',
+					top:0,
+					left:0,
+					width:'100%',
+					height:'100%',
+				}} frameBorder="0" webkitallowfullscreen="true" mozallowfullscreen="true" allowFullScreen={ true }/>
+			</div>
+			<script src="https://player.vimeo.com/api/player.js"/>
 			<div>
 				<a className="btn btn--muted js-scroll" href={ link.url }>{ link.name }</a>
 			</div>
