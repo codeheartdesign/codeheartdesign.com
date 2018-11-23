@@ -7,8 +7,11 @@ workshop: Communicating with Empathy
 abstract: |
   Teaching developers and designers the behaviors needed to be effective communicators and optimal collaborators.
 link:
-  url: "#tickets"
-  name: Get tickets
+  - url: "#tickets"
+    name: Get tickets
+  - url: "/assets/CodeHeartDesign-workshop.pdf"
+    name: Need to convince your boss?
+
 video: https://player.vimeo.com/video/302350799
 ---
 
@@ -32,5 +35,3 @@ from a place of understanding.
 **Location:** Atlassian, Level 6, 341 George St, Sydney CBD
 
 _Lunch and soft drinks provided_
-
-[Need to convince your boss?](/assets/CodeHeartDesign-workshop.pdf)

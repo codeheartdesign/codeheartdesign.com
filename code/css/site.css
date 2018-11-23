@@ -721,3 +721,9 @@ a.btn--soldout,
 .workshop .btn {
 	margin-top: 1.5rem;
 }
+a.cta {
+	display: block;
+	margin: 1rem 0;
+	font-size: 1.2rem;
+	color: var(--action);
+}

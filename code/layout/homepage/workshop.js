@@ -15,6 +15,8 @@ const Section = ({ headline, banner, name, workshop, abstract, link, video, _bod
 			<div className="workshop-abstract">{ abstract }</div>
 			{ _body }
 
+			<a className="cta" href={ link[ 1 ].url }>{ link[ 1 ].name }</a>
+
 			<div style={{
 				padding: '56.25% 0 0 0',
 				marginTop: '2rem',
@@ -30,7 +32,7 @@ const Section = ({ headline, banner, name, workshop, abstract, link, video, _bod
 			</div>
 			<script src="https://player.vimeo.com/api/player.js"/>
 			<div>
-				<a className="btn btn--muted js-scroll" href={ link.url }>{ link.name }</a>
+				<a className="btn btn--muted js-scroll" href={ link[ 0 ].url }>{ link[ 0 ].name }</a>
 			</div>
 		</div>
 	</Fragment>
