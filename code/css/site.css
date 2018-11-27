@@ -404,6 +404,9 @@ a.btn--soldout,
 	color: var(--highlight);
 	font-weight: bold;
 }
+.schedule-title p:first-child {
+	margin: 0;
+}
 .schedule-img,
 .schedule-details,
 .schedule-item {
