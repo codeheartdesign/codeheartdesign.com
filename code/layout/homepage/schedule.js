@@ -27,7 +27,7 @@ const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) =>
 							<span className="muted"> - { item.to }</span>
 						</div>
 						<div className="schedule-body gridgap">
-							{ item.title && <span className="schedule-title" itemProp="name">{ item.title }</span> }
+							{ item.title && <span className="schedule-title" itemProp="name">{ _parseMD( item.title ) }</span> }
 							{ item.img &&
 								<div className="schedule-img">
 									<div className="schedule-img-wrapper">

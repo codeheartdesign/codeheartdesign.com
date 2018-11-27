@@ -7,7 +7,7 @@ schedule:
     to: "12:30pm"
     endDate: 2018-11-30T14:30
     title: Doors open
-  - from: "12:45pm"
+  - from: "12:40pm"
     startDate: 2018-11-30T12:45
     to: "1:00pm"
     endDate: 2018-11-30T13:00
@@ -80,7 +80,7 @@ schedule:
     startDate: 2018-11-30T14:25
     to: "2:50pm"
     endDate: 2018-11-30T14:50
-    title: Break and shout outs
+    title: Break for coffee and gelato by [Thomas Walker Gelato](https://thomaswalker.com.au/)
 
   - from: "2:55pm"
     startDate: 2018-11-30T14:55
@@ -119,7 +119,7 @@ schedule:
     startDate: 2018-11-30T16:00
     to: "4:30pm"
     endDate: 2018-11-30T16:30
-    title: Gelato / coffee break and shout outs
+    title: Small break for finger food by [Cuon](https://www.twitter.com/cuoncatering)
 
   - from: "4:30pm"
     startDate: 2018-11-30T16:30
@@ -161,7 +161,7 @@ schedule:
     startDate: 2018-11-30T17:45
     to: "6:40pm"
     endDate: 2018-11-30T18:40
-    title: Dinner and Shout outs
+    title: Dinner by [Cuon](https://www.twitter.com/cuoncatering)
 
   - from: "6:40pm"
     startDate: 2018-11-30T18:40
@@ -189,5 +189,13 @@ schedule:
     startDate: 2018-11-30T19:15
     to: "8:00pm"
     endDate: 2018-11-30T20:00
-    title: Panel discussion
+    name: Panel discussion
+    role: Hosted by Alex Skougarevskaya (Design Manager – Atlassian, Design System)
+    description: |
+      The panel will include:
+
+      - [Sharon Steed](https://www.linkedin.com/in/sharon-steed/) (Principal - [Communilogue](http://communilogue.co/))
+      - [Sarah Pulis](https://www.linkedin.com/in/sarahpulis/) (Director – [Intopia](http://intopia.digital/))
+      - [Eugene Chung](https://www.linkedin.com/in/eugenekchung/) (Head of Organization Design – [Mentally Friendly](https://mentallyfriendly.com/))
+      - [Ben Crothers](http://www.bencrothers.com/) (Principle Designer – [Atlassian](https://www.atlassian.com/))
 ---

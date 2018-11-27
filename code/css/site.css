@@ -453,6 +453,11 @@ a.btn--soldout,
 	margin-top: 1rem;
 	line-height: 1.4;
 }
+.schedule-description ul {
+	padding: 0 0 0 1em;
+	margin: 0;
+	list-style-type: disc;
+}
 @media (min-width: 1050px) {
 	.schedule-body {
 		grid-template-columns: repeat( 8, [col-start] 1fr );
