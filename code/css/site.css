@@ -461,6 +461,22 @@ a.btn--soldout,
 	margin: 0;
 	list-style-type: disc;
 }
+.schedule-video {
+	position: relative;
+	padding-bottom: 56.25%;
+	margin-top: 2rem;
+	height: 0;
+	overflow: hidden;
+}
+.schedule-video iframe,
+.schedule-video object,
+.schedule-video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
 @media (min-width: 1050px) {
 	.schedule-body {
 		grid-template-columns: repeat( 8, [col-start] 1fr );
