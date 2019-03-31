@@ -46,6 +46,15 @@ const Schedule = ({ headline, schedule, _relativeURL, _ID, _parseMD, _self }) =>
 									}
 									{ item.role && <p className="schedule-role">{ item.role }</p> }
 									{ item.description && <div className="schedule-description" itemProp="description">{ _parseMD( item.description ) }</div> }
+									{
+										item.youtube && <div className="schedule-video">
+											<iframe width="560" height="315" src={ `https://www.youtube.com/embed/${ item.youtube }` } frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen>
+												<a href={ item.youtube }>
+													Watch video
+												</a>
+											</iframe>
+										</div>
+									}
 								</div>
 							}
 						</div>

@@ -10,74 +10,43 @@ const Page = ({
 	pagetitle,
 	header,
 	main,
-	body,
 	footer,
 	_pages,
 	_relativeURL,
 	_ID,
-}) => {
-	const CleanName = name => {
-		const newName = name
-			.replace(/-/g, ' ')
-			.replace('.md', '');
+	_self,
+}) => (
+	<html>
+		<Head _ID={ _ID } _relativeURL={ _relativeURL } pagetitle={ pagetitle }/>
 
-		return `${ newName.slice( 0, 1 ).toUpperCase() }${ newName.slice( 1 ) }`;
-	}
+		<body className={ _ID } itemScope itemType="http://schema.org/Event">
+			<div className="grid gridgap">
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+				<div className="col">&nbsp;</div>
+			</div>
 
-	return (
-		<html>
-			<Head _ID={ _ID } _relativeURL={ _relativeURL } pagetitle={ pagetitle }/>
+			{ header }
 
-			<body className={ _ID } itemScope itemType="http://schema.org/Event">
-				<div className="grid gridgap">
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-					<div className="col">&nbsp;</div>
-				</div>
+			<main className="wrapper gridgap">
+				{ main }
+			</main>
 
-				{ header }
+			{ footer }
 
-				<main className="wrapper gridgap">
-					{ body ? null : <div className="row"><a href={ _relativeURL( '/', _ID ) }>← Back home</a></div> }
-					{ main }
-
-					{
-						body &&
-							<div className="row wrapper gridgap content-wrapper">
-								<nav>
-									<ul className="navlist">
-										{
-											_pages.index.body.map( ( page, i ) =>
-												<li key={ i }>
-													<a className="js-scroll" href={`#${ page.replace('.md', '') }`}>{ CleanName( page ) }</a>
-												</li>
-											)
-										}
-									</ul>
-								</nav>
-								<section className="content gridgap">
-									{ body }
-								</section>
-							</div>
-					}
-				</main>
-
-				{ footer }
-
-				<Scripts _ID={ _ID } _relativeURL={ _relativeURL }/>
-			</body>
-		</html>
-	);
-};
+			<Scripts _ID={ _ID } _relativeURL={ _relativeURL }/>
+		</body>
+	</html>
+);
 
 Page.propTypes = {
 	/**
@@ -98,7 +67,7 @@ Page.propTypes = {
 	/**
 	 * footer: (partials)(2)
 	 */
-	footer: PropTypes.node.isRequired,
+	footer: PropTypes.node,
 };
 
 export default Page;

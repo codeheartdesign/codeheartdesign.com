@@ -13,13 +13,19 @@ module.exports = exports = function renderer({ Marked, _ID, _relativeURL }) {
 	 */
 	Marked.link = ( href, title, text ) => {
 		let attr = '';
-		if( href.startsWith('http://') || href.startsWith('https://') ) {
+		if (
+			!href.startsWith('https://codeheartdesign.com') && href.startsWith('http://') ||
+			!href.startsWith('https://codeheartdesign.com') && href.startsWith('https://')
+		) {
 			attr = ' target="_blank" rel="noopener noreferrer"';
 		}
-		else if( href.startsWith('#') ) {
+		else if ( href.startsWith('https://codeheartdesign.com') ) {
+			attr = '';
+		}
+		else if ( href.startsWith('#') ) {
 			attr = 'class="js-scroll"';
 		}
-		else if( !href.startsWith('#') && !href.startsWith('mailto:') && typeof _relativeURL === 'function' ) {
+		else if ( !href.startsWith('#') && !href.startsWith('mailto:') && typeof _relativeURL === 'function' ) {
 			href = _relativeURL( href, _ID );
 		}
 
@@ -38,13 +44,13 @@ module.exports = exports = function renderer({ Marked, _ID, _relativeURL }) {
 	 */
 	Marked.image = ( href, title, text ) => {
 		let sourcePath = href;
-		if( !sourcePath.startsWith('http://') && !sourcePath.startsWith('https://') ) {
+		if ( !sourcePath.startsWith('http://') && !sourcePath.startsWith('https://') ) {
 			sourcePath = _relativeURL( href, _ID );
 		}
 
 		let out = `<img src="${ sourcePath }" alt="${ text }"`;
 
-		if( title ) {
+		if ( title ) {
 			out += ` title="${ title }"`;
 		}
 

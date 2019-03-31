@@ -1,0 +1,12 @@
+pagetitle: Code of Conduct - Design system meetup
+title: Code of Conduct
+
+header:
+  - /_shared/header.md
+
+main:
+  - /_shared/backhome.md
+  - body.md
+
+footer:
+  - /_shared/footer.md

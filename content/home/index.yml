@@ -1,0 +1,10 @@
+pagetitle: Code Heart Design
+
+header:
+  - /_shared/header.md
+
+main:
+  - header.md
+
+footer:
+  - /_shared/footer.md

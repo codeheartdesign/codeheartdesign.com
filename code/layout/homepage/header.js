@@ -7,19 +7,23 @@ import React, { Fragment } from 'react';
  */
 const HomepageHeader = ({ headline, button, startDate, endDate, location, _body }) => (
 	<div className="row-c header">
-		<h2 className="headline" itemProp="description">{ headline }</h2>
-		<meta itemProp="startDate" content={ startDate }/>
-		<meta itemProp="endDate" content={ endDate }/>
+		{ headline && <h2 className="headline" itemProp="description">{ headline }</h2> }
+		{ startDate && <meta itemProp="startDate" content={ startDate }/> }
+		{ endDate && <meta itemProp="endDate" content={ endDate }/> }
 		<div className="body" itemProp="location" itemScope itemType="http://schema.org/Place">
-			<meta itemProp="name" content={ location.name }/>
-			<div itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
-				<link itemProp="url" href={ location.link }/>
-				<meta itemProp="streetAddress" content={ location.address }/>
-				<div itemProp="hasMap"><link itemProp="sameAs" itemType="https://schema.org/Map" href={ location.map }/></div>
-			</div>
+			{ location &&
+				<Fragment>
+					<meta itemProp="name" content={ location.name }/>
+					<div itemProp="address" itemScope itemType="http://schema.org/PostalAddress">
+						<link itemProp="url" href={ location.link }/>
+						<meta itemProp="streetAddress" content={ location.address }/>
+						<div itemProp="hasMap"><link itemProp="sameAs" itemType="https://schema.org/Map" href={ location.map }/></div>
+					</div>
+				</Fragment>
+			}
 			{ _body }
 		</div>
-		<a className="js-scroll btn btn--lg" href="#tickets">{ button }</a>
+		{ button && <a className="js-scroll btn btn--lg" href="#tickets">{ button }</a> }
 	</div>
 );
 
@@ -32,17 +36,17 @@ HomepageHeader.propTypes = {
 	/**
 	 * button: Get tickets
 	 */
-	button: PropTypes.string.isRequired,
+	button: PropTypes.string,
 
 	/**
 	 * startDate: 2018-11-30T12:00
 	 */
-	startDate: PropTypes.string.isRequired,
+	startDate: PropTypes.string,
 
 	/**
 	 * endDate: 2018-11-30T12:00
 	 */
-	endDate: PropTypes.string.isRequired,
+	endDate: PropTypes.string,
 
 	/**
 	 * location:
@@ -56,7 +60,7 @@ HomepageHeader.propTypes = {
 		link: PropTypes.string.isRequired,
 		address: PropTypes.string.isRequired,
 		map: PropTypes.string.isRequired,
-	}).isRequired,
+	}),
 
 	/**
 	 * _body: (text)(12)
