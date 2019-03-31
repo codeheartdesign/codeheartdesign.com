@@ -1,4 +1,5 @@
 {
+	"version": "3.0.0",
 	"scripts": {
 		"build:sitecss": "postcss code/css/site.css --output code/assets/css/site.min.css --no-map",
 		"build:headcss": "postcss code/css/head.css --output code/css/head.min.css --no-map",
@@ -26,12 +27,12 @@
 		}
 	},
 	"devDependencies": {
-		"autoprefixer": "^9.1.2",
-		"browser-sync": "^2.24.7",
-		"cuttlebelle": "^1.0.0-alpha.56",
-		"cssnano": "^4.0.5",
-		"moment": "^2.22.2",
-		"onchange": "^4.1.0",
-		"postcss-cli": "^6.0.0"
+		"autoprefixer": "^9.5.0",
+		"browser-sync": "^2.26.3",
+		"cuttlebelle": "^1.0.0-alpha.60",
+		"cssnano": "^4.1.10",
+		"moment": "^2.24.0",
+		"onchange": "^5.2.0",
+		"postcss-cli": "^6.1.2"
 	}
 }

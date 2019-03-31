@@ -1,5 +1,4 @@
 ---
 layout: header
+text: More events
 ---
-
-Design System Meetup

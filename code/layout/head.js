@@ -10,6 +10,7 @@ import Fs from 'fs';
  * @disable-docs
  */
 const Head = ({ _ID, _relativeURL, pagetitle }) => {
+	const version = require('../../package.json').version;
 	const Styles = () => Fs.readFileSync( Path.normalize(`${ __dirname }/../css/head.min.css`), 'utf8' );
 
 	return (
@@ -35,17 +36,17 @@ const Head = ({ _ID, _relativeURL, pagetitle }) => {
 			<meta property="og:title" content="Code Heart Design Conference Sydney"/>
 			<meta property="og:site_name" content="Code Heart Design Conference Sydney"/>
 			<meta property="og:url" content="https://codeheartdesign.com/"/>
-			<meta property="og:image" content="https://codeheartdesign.com/assets/img/og-image.jpg?v3"/>
+			<meta property="og:image" content={`https://codeheartdesign.com/assets/img/og-image.jpg?v${ version }`}/>
 			<meta property="og:image:height" content="1257"/>
 			<meta property="og:image:width" content="2400"/>
 			<meta name="twitter:card" content="summary_large_image"/>
 			<meta name="twitter:title" content="Code Heart Design Conference Sydney"/>
 			<meta name="twitter:description" content="A mini-conf bringing together designers, design system lovers and front-end developers."/>
 			<meta name="twitter:name" content="Code Heart Design Conference Sydney"/>
-			<meta name="twitter:image" content="https://codeheartdesign.com/assets/img/og-image.jpg?v3"/>
+			<meta name="twitter:image" content={`https://codeheartdesign.com/assets/img/og-image.jpg?v${ version }`}/>
 			<style dangerouslySetInnerHTML={{ __html: Styles() }} />
 			<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700i" rel="stylesheet"/>
-			<link rel="stylesheet" href={_relativeURL(`/assets/css/site.min.css?v2`, _ID)}/>
+			<link rel="stylesheet" href={_relativeURL(`/assets/css/site.min.css?v${ version }`, _ID)}/>
 		</head>
 	);
 };

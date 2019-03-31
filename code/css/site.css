@@ -138,6 +138,31 @@ footer.wrapper,
 .heart:hover .l12 { animation-delay: 5.5s; }
 .heart:hover .l13 { animation-delay: 6s; }
 
+/* ====================== HEADERNAV ====================== */
+.headernav-wrapper {
+	margin: 0 auto;
+	vertical-align: middle;
+	background-color: var(--bg);
+}
+.headernav {
+	grid-column: col-start / -1;
+	border-bottom: 6px solid var(--border);
+	padding: 0.5rem 0;
+	color: var(--fg);
+}
+.headernav-logo {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 0.5rem;
+}
+.heart-headernav {
+	height: 1.5rem;
+}
+.headernav-logo path,
+.headernav-logo g {
+	fill: var(--fg);
+}
+
 /* ====================== FOOTER ====================== */
 footer.wrapper {
 	text-align: center;
@@ -189,7 +214,7 @@ footer.wrapper {
 .footer-body p {
 	margin: 0;
 }
-.heart-gem {
+footer .heart-gem {
 	margin: 60rem 0 10rem 0;
 	display: inline-block;
 	width: 15rem;

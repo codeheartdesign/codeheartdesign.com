@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 
 /**
- * The Section component
+ * The Workshop component
  */
-const Section = ({ headline, banner, name, workshop, abstract, link, video, _body, _self, _relativeURL, _ID }) => (
+const Workshop = ({ headline, banner, name, workshop, abstract, link, video, _body, _self, _relativeURL, _ID }) => (
 	<Fragment>
 		<h3 className="row-h contentHeadline" id={ _self.split('/').slice(-1).join('').replace('.md', '') } tabIndex="0">{ headline }</h3>
 		<div className={`row-h workshop content section section-${ headline.toLowerCase().replace(' ', '-') }`}>
@@ -38,7 +38,7 @@ const Section = ({ headline, banner, name, workshop, abstract, link, video, _bod
 	</Fragment>
 );
 
-Section.propTypes = {
+Workshop.propTypes = {
 	/**
 	 * headline: Section
 	 */
@@ -70,10 +70,12 @@ Section.propTypes = {
 	 *   url: "#tickets"
 	 *   name: Get tickets
 	 */
-	link: PropTypes.shape({
-		url: PropTypes.string.isRequired,
-		name: PropTypes.string.isRequired,
-	}).isRequired,
+	link: PropTypes.arrayOf(
+		PropTypes.shape({
+			url: PropTypes.string.isRequired,
+			name: PropTypes.string.isRequired,
+		})
+	).isRequired,
 
 	/**
 	 * _body: (text)(12)
@@ -81,6 +83,6 @@ Section.propTypes = {
 	_body: PropTypes.node.isRequired,
 };
 
-Section.defaultProps = {};
+Workshop.defaultProps = {};
 
-export default Section;
+export default Workshop;

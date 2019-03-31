@@ -6,7 +6,10 @@ tickets:
     subline: |
       Attend Sharon Steed's [Empathy workshop](#workshop) in the morning
       (workshop ticket does **not** include conference entry).
-    btn: Buy now
+    btn: Sold out!
+    message: All sold out!
+    soldout: true
+    disabled: true
     price: $270
     type: 1hldv99zgu
     validfrom: 2018-10-15T10:00

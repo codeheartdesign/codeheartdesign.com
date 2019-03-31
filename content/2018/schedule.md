@@ -18,6 +18,7 @@ schedule:
     to: "1:45pm"
     endDate: 2018-11-30T13:45
     keynote: true
+    youtube: xOS43Pwu9X4
     name: Sharon Steed
     img: sharon-steed.jpg
     role: Principal / Communilogue
@@ -43,6 +44,7 @@ schedule:
     startDate: 2018-11-30T13:50
     to: "2:00pm"
     endDate: 2018-11-30T14:00
+    youtube: 8uZUp9818Lg
     name: Patrick De Young
     img: patrick-deyoung.jpg
     role: Sr Product Manager / Domain
@@ -62,6 +64,7 @@ schedule:
     startDate: 2018-11-30T14:05
     to: "2:25pm"
     endDate: 2018-11-30T14:25
+    youtube: 6ZueHcuWMpA
     name: Isabel Brison
     img: isabel-brison.jpg
     role: Front end engineer / Fairfax Media
@@ -86,6 +89,7 @@ schedule:
     startDate: 2018-11-30T14:55
     to: "3:25pm"
     endDate: 2018-11-30T15:25
+    youtube: VqSq4kW3LK4
     name: Jed Watson
     img: jed-watson.jpg
     role: Co-Founder / Thinkmill
@@ -102,6 +106,7 @@ schedule:
     startDate: 2018-11-30T15:30
     to: "4:00pm"
     endDate: 2018-11-30T16:00
+    youtube: ZrNCQHE2Nd4
     name: Russ Weakley
     img: russ-weakley.jpg
     role: Design System Principal / IAG
@@ -125,6 +130,7 @@ schedule:
     startDate: 2018-11-30T16:30
     to: "5:15pm"
     endDate: 2018-11-30T17:15
+    youtube: UQWCJltfn8Y
     name: Mark Dalgleish
     img: mark-dalgleish.jpg
     role: Front End Engineering Lead / SEEK
@@ -141,6 +147,7 @@ schedule:
     startDate: 2018-11-30T17:20
     to: "5:45pm"
     endDate: 2018-11-30T17:45
+    youtube: pxbbpLYTitA
     name: Patrick Thompson
     img: patrick-thompson.jpg
     role: Co-founder / Iterative.ly
@@ -167,6 +174,7 @@ schedule:
     startDate: 2018-11-30T18:40
     to: "7:10pm"
     endDate: 2018-11-30T19:10
+    youtube: U5lD_ioCxIE
     name: Allard van Helbergen - Raja Bellebon
     img: allard-van-helbergen-raja-bellebon.jpg
     role: Senior Designer / Atlassian - SDET Engineer / Atlassian
@@ -189,6 +197,7 @@ schedule:
     startDate: 2018-11-30T19:15
     to: "8:00pm"
     endDate: 2018-11-30T20:00
+    youtube: SCuKlEfFoWQ
     name: Panel discussion
     role: Hosted by Alex Skougarevskaya (Design Manager – Atlassian, Design System)
     description: |

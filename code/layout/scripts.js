@@ -7,13 +7,17 @@ import React, { Fragment } from 'react';
  *
  * @disable-docs
  */
-const Scripts = ({ _ID, _relativeURL }) => (
-	<Fragment>
-		<script src='https://js.tito.io/v1' async/>
-		<script src="https://www.google-analytics.com/analytics.js" async defer/>
-		<script type="text/javascript" src={ _relativeURL( `/assets/js/script.min.js?v2`, _ID ) }/>
-	</Fragment>
-);
+const Scripts = ({ _ID, _relativeURL }) => {
+	const version = require('../../package.json').version;
+
+	return (
+		<Fragment>
+			<script src='https://js.tito.io/v1' async/>
+			<script type="text/javascript" src={ _relativeURL( `/assets/js/script.min.js?v${ version }`, _ID ) } async/>
+			<script src="https://www.google-analytics.com/analytics.js" async defer/>
+		</Fragment>
+	);
+};
 
 Scripts.propTypes = {};
 

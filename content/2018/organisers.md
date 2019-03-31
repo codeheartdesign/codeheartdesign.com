@@ -11,7 +11,7 @@ organisers:
   - name: Dominik Wilkowski
     img: dominik-wilowski.jpg
     company: |
-      Team Lead / [Thinkmill](https://www.thinkmill.com.au)
+      People Director / [Thinkmill](https://www.thinkmill.com.au)
     blurb: |
       Organiser of [Design System Meetup](https://designsystemmeetup.com)
   - name: Jess Telford
