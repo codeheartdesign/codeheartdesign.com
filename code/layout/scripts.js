@@ -13,7 +13,7 @@ const Scripts = ({ _ID, _relativeURL }) => {
 	return (
 		<Fragment>
 			<script src='https://js.tito.io/v1' async/>
-			<script type="text/javascript" src={ _relativeURL( `/assets/js/script.min.js?v${ version }`, _ID ) } async/>
+			<script type="text/javascript" src={ `https://codeheartdesign.com/assets/js/script.min.js?v${ version }` } async/>
 			<script src="https://www.google-analytics.com/analytics.js" async defer/>
 		</Fragment>
 	);

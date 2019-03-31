@@ -9,7 +9,7 @@ import Fs from 'fs';
  *
  * @disable-docs
  */
-const Head = ({ _ID, _relativeURL, pagetitle }) => {
+const Head = ({ pagetitle }) => {
 	const version = require('../../package.json').version;
 	const Styles = () => Fs.readFileSync( Path.normalize(`${ __dirname }/../css/head.min.css`), 'utf8' );
 
@@ -46,7 +46,7 @@ const Head = ({ _ID, _relativeURL, pagetitle }) => {
 			<meta name="twitter:image" content={`https://codeheartdesign.com/assets/img/og-image.jpg?v${ version }`}/>
 			<style dangerouslySetInnerHTML={{ __html: Styles() }} />
 			<link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700i" rel="stylesheet"/>
-			<link rel="stylesheet" href={_relativeURL(`/assets/css/site.min.css?v${ version }`, _ID)}/>
+			<link rel="stylesheet" href={`https://codeheartdesign.com/assets/css/site.min.css?v${ version }`}/>
 		</head>
 	);
 };
