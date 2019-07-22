@@ -32,6 +32,24 @@ Install dependencies with preferably [`yarn`](https://yarnpkg.com/) and run one 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+## How to deploy
+
+The site is deployed via [Netlify](https://netlify.com). But since we use sub-domains we have three apps in Netlify that are all deployed automatically on
+master.
+
+| Command      | URL                               | Status
+|--------------|---------------------------------------------------|
+| `docs/home`  | https://codeheartdesign.com/      | [![Netlify Status](https://api.netlify.com/api/v1/badges/048771c3-f253-4383-89c0-a149a5c02157/deploy-status)](https://app.netlify.com/sites/codeheartdesign/deploys) |
+| `docs/2018`  | https://2018.codeheartdesign.com/ | [![Netlify Status](https://api.netlify.com/api/v1/badges/33a01a87-e073-4fdc-9d40-ce4f2b6a54b7/deploy-status)](https://app.netlify.com/sites/2018codeheartdesign/deploys) |
+| `docs/2019`  | https://2019.codeheartdesign.com/ | [![Netlify Status](https://api.netlify.com/api/v1/badges/ebdcad17-9ea8-4e78-863f-bacd73ef00e8/deploy-status)](https://app.netlify.com/sites/2019codeheartdesign/deploys) |
+
+
+**[⬆ back to top](#contents)**
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
 ## License
 
 Copyright (c) Code Heart Design.
