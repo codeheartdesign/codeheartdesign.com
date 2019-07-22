@@ -37,7 +37,7 @@ Install dependencies with preferably [`yarn`](https://yarnpkg.com/) and run one 
 The site is deployed via [Netlify](https://netlify.com). But since we use sub-domains we have three apps in Netlify that are all deployed automatically on
 master.
 
-| Command      | URL                               | Status
+| Command      | URL                               | Status        |
 |--------------|---------------------------------------------------|
 | `docs/home`  | https://codeheartdesign.com/      | [![Netlify Status](https://api.netlify.com/api/v1/badges/048771c3-f253-4383-89c0-a149a5c02157/deploy-status)](https://app.netlify.com/sites/codeheartdesign/deploys) |
 | `docs/2018`  | https://2018.codeheartdesign.com/ | [![Netlify Status](https://api.netlify.com/api/v1/badges/33a01a87-e073-4fdc-9d40-ce4f2b6a54b7/deploy-status)](https://app.netlify.com/sites/2018codeheartdesign/deploys) |
