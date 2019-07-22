@@ -20,7 +20,8 @@
 		"watch:headcss": "onchange 'code/css/head.css' -- npm run build:headcss",
 		"watch:site": "onchange 'code/**' 'content/**' -- npm run build:pages",
 		"watch": "npm run build && npm run watch:sitecss | npm run watch:headcss | npm run watch:site | npm run server",
-		"server": "browser-sync start --server 'docs' --files 'docs' --startPath '2018'"
+		"server": "browser-sync start --server 'docs' --files 'docs' --startPath '2018'",
+		"nuke": "rm -rf docs && rm -rf node_modules && rm yarn.lock"
 	},
 	"dependencies": {},
 	"cuttlebelle": {
@@ -34,13 +35,16 @@
 			"markdownRenderer": "code/markdown/index.js"
 		}
 	},
+	"browserslist": [
+		"last 4 version"
+	],
 	"devDependencies": {
-		"autoprefixer": "^9.5.1",
-		"browser-sync": "^2.26.5",
+		"autoprefixer": "^9.6.1",
+		"browser-sync": "^2.26.7",
 		"cuttlebelle": "^1.0.0-alpha.62",
 		"cssnano": "^4.1.10",
 		"moment": "^2.24.0",
 		"onchange": "^6.0.0",
-		"postcss-cli": "^6.1.2"
+		"postcss-cli": "^6.1.3"
 	}
 }
