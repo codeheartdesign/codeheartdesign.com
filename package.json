@@ -41,7 +41,7 @@
 	"devDependencies": {
 		"autoprefixer": "^9.8.5",
 		"browser-sync": "^2.26.9",
-		"cuttlebelle": "^1.0.0-alpha.71",
+		"cuttlebelle": "^1.0.0-alpha.74",
 		"cssnano": "^4.1.10",
 		"moment": "^2.27.0",
 		"onchange": "^7.0.2",
