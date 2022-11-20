@@ -108,6 +108,7 @@ const Header = ({ text, _ID }) => (
 					</svg>
 				</h1>
 			</a>
+			<a className="sr-only" rel="me" href="https://mastodon.social/@wilkowskidom">Mastodon</a>
 		</header>
 	</Fragment>
 );
